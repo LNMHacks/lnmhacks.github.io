@@ -1,0 +1,43 @@
+/* Navbar */
+nav{
+    background-color: #f1f1f1;
+    height: 64px;
+}
+
+.ui.secondary.menu{
+    padding: 14px 0px;
+}
+
+.logo .icon{
+    height: 36px;
+    width: 162px !important;
+}
+
+.item.logo{
+    padding: 0 !important;
+}
+
+/* Header */
+.star-field{
+    position: relative;
+    height: 600px;
+    background-image: url('../img/star-field.jpg');
+    background-size: contain;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+/* Sections */
+.content {
+    position: relative;
+    background: white;
+    margin-bottom: 400px;
+    overflow: hidden;
+}
+
+.content article {
+    padding: 100px 0;
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
