@@ -2,6 +2,9 @@
 nav{
     background-color: #f1f1f1;
     height: 64px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 .ui.secondary.menu{
@@ -40,4 +43,14 @@ nav{
     max-width: 720px;
     margin: 0 auto;
     text-align: center;
+}
+
+.lnmiit{
+    position: relative;
+    height: 600px;
+    background-image: url('../img/LNMIIT.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
