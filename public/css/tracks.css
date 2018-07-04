@@ -1,0 +1,26 @@
+.tracks-heading{
+	background-color:;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top:30px;
+	
+}
+
+.tracks-heading > h2{
+	font-size:40px;
+}
+
+.tracks-icon > div{
+	margin-bottom: 20px;
+	opacity:1;
+    position: relative;
+    transform: translateX(30px);
+    transition: all 0.4s ease-in-out;
+    overflow:hidden;
+}
+
+.is-showing{
+	opacity: 1;
+    transform: translateX(0px);
+    z-index:2;
+}
