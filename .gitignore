@@ -1,3 +1,7 @@
+/public/img/avatar
+npm-debug.log
+playground.html
+.idea/
 node_modules
 bower_components
 .DS_Store
