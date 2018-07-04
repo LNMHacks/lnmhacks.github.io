@@ -24,14 +24,32 @@ nav{
 .star-field{
     position: relative;
     height: 600px;
+    background-size: contain;
+    background-position: top center;
+    background-attachment: fixed;
+    background-color: rgba(24,25,29,1);
+}
+
+#particles-js{
+    background-image: url('../img/star-field.jpg');
+    position: relative;
+    height: 600px;
+    background-size: contain;
+    background-color: black;
+    background-position: top center;
+    background-attachment: fixed;
+    background-color: rgba(24,25,29,1);
+}
+
+.steve-jobs{
+    position: relative;
+    height: 600px;
     background-image: url('../img/steveJobs.jpg');
     background-size: contain;
     background-position: top right;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: rgba(24,25,29,1);
 }
-
 /* Sections */
 .content {
     position: relative;
