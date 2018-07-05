@@ -74,3 +74,23 @@ nav{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 40px;
+}
+
+#map {
+    width: 100%; height: 400px; margin-top: 40px; margin-bottom: 40px;
+}
+
+.info-window {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-content {
+    color: #999;
+}

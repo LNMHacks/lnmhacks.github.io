@@ -7,74 +7,12 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href='custom.css' rel='stylesheet' type='text/css'>
         <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-              }
-              h1{
-                  text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 40px;
-              }
 
-              #map {
-                  width: 100%; height: 400px; margin-top: 40px; margin-bottom: 40px;
-              }
-
-              .info-window {
-                  font-family: 'Montserrat', sans-serif;
-              }
-              .info-content {
-                  color: #999;
-              }
         </style>
         <script>
           $(function () {
 
-    function initMap() {
 
-        // var location = new google.maps.LatLng(50.0875726, 14.4189987);
-        var location = new google.maps.LatLng(26.936576, 75.93266);
-
-        var mapCanvas = document.getElementById('map');
-        var mapOptions = {
-            center: location,
-            zoom: 14,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-
-        var markerImage = 'marker.png';
-
-        var marker = new google.maps.Marker({
-            position: location,
-            map: map,
-            icon: markerImage
-        });
-
-
-        // must change content html 
-        var contentString = '<div class="info-window" style="border-radius:5px;">' +
-                '<h3 style="text-align: center;">The LNM Institute of Information Technology, Jaipur</h3>' +
-                '<div class="info-content" >' +
-                '<img width="100px" height="100px" src="https://images.shiksha.com/mediadata/images/1493007356phptRMn1n_210x157.jpg" alt="pointer">' +
-                '<p style="float:left;">Rupa ki Nangal, Post-Sumel, Via-Jamdoli, Jaipur, Rajasthan 302031</p>' +
-                '</div>' +
-                '</div>';
-
-        var infowindow = new google.maps.InfoWindow({
-            content: contentString,
-            maxWidth: 400
-        });
-
-        marker.addListener('click', function () {
-            infowindow.open(map, marker);
-        });
-
-        var styles = [{"featureType": "landscape", "stylers": [{"saturation": -100}, {"lightness": 65}, {"visibility": "on"}]}, {"featureType": "poi", "stylers": [{"saturation": -100}, {"lightness": 51}, {"visibility": "simplified"}]}, {"featureType": "road.highway", "stylers": [{"saturation": -100}, {"visibility": "simplified"}]}, {"featureType": "road.arterial", "stylers": [{"saturation": -100}, {"lightness": 30}, {"visibility": "on"}]}, {"featureType": "road.local", "stylers": [{"saturation": -100}, {"lightness": 40}, {"visibility": "on"}]}, {"featureType": "transit", "stylers": [{"saturation": -100}, {"visibility": "simplified"}]}, {"featureType": "administrative.province", "stylers": [{"visibility": "off"}]}, {"featureType": "water", "elementType": "labels", "stylers": [{"visibility": "on"}, {"lightness": -25}, {"saturation": -100}]}, {"featureType": "water", "elementType": "geometry", "stylers": [{"hue": "#ffff00"}, {"lightness": -25}, {"saturation": -97}]}];
-
-        map.set('styles', styles);
-
-    }
-
-    google.maps.event.addDomListener(window, 'load', initMap);
 });
         </script>
     </head>

@@ -107,11 +107,80 @@
 <!-- ============================================================================ -->
                                     <!--Find Us-->
 <!-- ============================================================================ -->
+<section class="content">
+    <div id="map"></div>
+</section>
 
 <!-- ============================================================================ -->
                                     <!--Footer-->
 <!-- ============================================================================ -->
 
+<script>
+    // function initMap() {
+    //     var uluru = {lat: 40.7504444, lng: -73.981455};
+    //     var map = new google.maps.Map(document.getElementById('map'), {
+    //         zoom: 18,
+    //         center: uluru
+    //     });
+    //     var marker = new google.maps.Marker({
+    //         position: uluru,
+    //         map: map
+    //     });
+    // }
+
+    function initMap() {
+
+        // var location = new google.maps.LatLng(50.0875726, 14.4189987);
+        var location = new google.maps.LatLng(26.936576, 75.93266);
+
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+            center: location,
+            zoom: 14,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+
+        var markerImage = 'marker.png';
+
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map,
+            // icon: markerImage
+        });
+
+
+        // must change content html
+        var contentString = '<div class="info-window" style="border-radius:5px;">' +
+            '<h3 style="text-align: center;">The LNM Institute of Information Technology, Jaipur</h3>' +
+            '<div class="info-content" >' +
+            '<img width="100px" height="100px" src="https://images.shiksha.com/mediadata/images/1493007356phptRMn1n_210x157.jpg" alt="pointer">' +
+            '<p style="float:left;">Rupa ki Nangal, Post-Sumel, Via-Jamdoli, Jaipur, Rajasthan 302031</p>' +
+            '</div>' +
+            '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString,
+            maxWidth: 400
+        });
+
+        marker.addListener('click', function () {
+            infowindow.open(map, marker);
+        });
+
+        var styles = [{"featureType": "landscape", "stylers": [{"saturation": -100}, {"lightness": 65}, {"visibility": "on"}]}, {"featureType": "poi", "stylers": [{"saturation": -100}, {"lightness": 51}, {"visibility": "simplified"}]}, {"featureType": "road.highway", "stylers": [{"saturation": -100}, {"visibility": "simplified"}]}, {"featureType": "road.arterial", "stylers": [{"saturation": -100}, {"lightness": 30}, {"visibility": "on"}]}, {"featureType": "road.local", "stylers": [{"saturation": -100}, {"lightness": 40}, {"visibility": "on"}]}, {"featureType": "transit", "stylers": [{"saturation": -100}, {"visibility": "simplified"}]}, {"featureType": "administrative.province", "stylers": [{"visibility": "off"}]}, {"featureType": "water", "elementType": "labels", "stylers": [{"visibility": "on"}, {"lightness": -25}, {"saturation": -100}]}, {"featureType": "water", "elementType": "geometry", "stylers": [{"hue": "#ffff00"}, {"lightness": -25}, {"saturation": -97}]}];
+
+        map.set('styles', styles);
+
+    }
+
+</script>
+
+<!--<script async defer-->
+        <!--src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBx45kJ0ZLT6-fzc3bIRN1quiuGHuI1NwA-->
+<!--&callback=initMap">-->
+<!--</script>-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ&callback=initMap"></script>
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script>
     particlesJS.load('particles-js', 'particles.json', function() { console.log('Loaded particle.json') })
