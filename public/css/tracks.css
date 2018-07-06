@@ -1,3 +1,5 @@
+/*Tracks*/
+
 .tracks-heading{
 	text-align: center;
 	margin-bottom: 20px;
@@ -22,4 +24,39 @@
 	opacity: 1;
     transform: translateX(0px);
     z-index:2;
+}
+
+/*gallery*/
+
+.gallery{
+	margin:10px 50px;
+}
+
+.gallery img{
+	width:230px;
+	padding:5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.gallery img:hover{
+	filter:grayscale(0%);
+	transform:scale(1.1);
+}
+
+
+/*about section*/
+
+.about-header{
+	color: #fff;
+	opacity:1;
+	text-align: center;
+	padding-top:30px;
+	margin-bottom: 70px;
+}
+
+.about-text{
+	color: #fff; 
+	opacity:1;
+	font-size:30px;
 }
