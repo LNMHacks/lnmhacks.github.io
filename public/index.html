@@ -149,7 +149,7 @@
                     <div class="six wide column">
                         <div class="temp">
                             <strong style="display: block; margin-bottom: 25px">You can fill this form to sort out your queries</strong>
-                            <form class="ui mini form" action="">
+                            <form id="test-form" class="ui mini form" action="">
                                 <div class="two fields">
                                     <div class="field">
                                         <input type="text" name="user-name" placeholder="Name">
@@ -162,7 +162,7 @@
                                     <textarea placeholder="Describe your query here" rows="3" name="user-query" id="" cols="30" rows="10"></textarea>
                                 </div>
                                 <div class="field">
-                                    <input class="ui submit tiny button" value="Submit" type="submit">
+                                    <input id="submit-form" class="ui submit tiny button" value="Submit" type="submit">
                                 </div>
                             </form>
                         </div>
@@ -242,6 +242,22 @@
     particlesJS.load('particles-js', 'particles.json', function() { console.log('Loaded particle.json') })
 </script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-serialize-object/2.5.0/jquery.serialize-object.min.js"></script>
+<script>
+    var $form = $('form#test-form'),
+        url = 'https://script.google.com/macros/s/AKfycby21jdkLYip-sqqq05xNF20Q8s_NG_WTAvNzAFAz97PL98e11rV/exec'
+
+    $('#submit-form').on('click', function(e) {
+        e.preventDefault();
+        var jqxhr = $.ajax({
+            url: url,
+            method: "GET",
+            dataType: "json",
+            data: $form.serializeObject()
+        });
+    })
+</script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.js"></script>
 </body>
 </html>
