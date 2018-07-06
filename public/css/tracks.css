@@ -43,3 +43,20 @@
 	filter:grayscale(0%);
 	transform:scale(1.1);
 }
+
+
+/*about section*/
+
+.about-header{
+	color: #fff;
+	opacity:1;
+	text-align: center;
+	padding-top:30px;
+	margin-bottom: 70px;
+}
+
+.about-text{
+	color: #fff; 
+	opacity:1;
+	font-size:30px;
+}
