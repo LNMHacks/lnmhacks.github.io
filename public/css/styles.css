@@ -28,6 +28,7 @@ nav{
     background-position: top center;
     background-attachment: fixed;
     background-color: rgba(24,25,29,1);
+    z-index: 3;
 }
 
 #particles-js{
@@ -53,8 +54,8 @@ nav{
 /* Sections */
 .content {
     position: relative;
+    z-index: 2;
     background: white;
-    margin-bottom: 400px;
     overflow: hidden;
 }
 
@@ -65,10 +66,27 @@ nav{
     text-align: center;
 }
 
-.lnmiit{
+.lnmiit {
     position: relative;
+    z-index: 3;
     height: 600px;
     background-image: url('../img/LNMIIT.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    position: fixed;
+    max-width: 100%;
+    margin: 0 auto;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    /*background-image: url('../img/LNMIIT.jpg');*/
+    background-color: rgba(25,25,25,1);
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
@@ -93,4 +111,19 @@ h1 {
 
 .info-content {
     color: #999;
+}
+
+.temp {
+    color: white;
+    /*height: 300px;*/
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.content.reveal{
+    margin-bottom: 300px;
 }
