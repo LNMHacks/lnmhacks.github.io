@@ -37,8 +37,9 @@
 	transform:scale(1.1);
 }
 
-.gallery .header{
+.header{
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 .gallery .grid{
@@ -61,3 +62,20 @@
 	font-size:30px;
 }
 
+
+/*shifting galleries*/
+
+#mob-g{display:none;}
+
+@media only screen and (max-device-width: 480px) {
+    #mob-g{display: block;}       
+    #desk-g{display: none;}
+} 
+
+.carousel img { 
+  max-width: 100%;
+
+}
+
+
+ 

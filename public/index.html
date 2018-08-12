@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel='stylesheet' href='css/lightbox.min.css'>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel='icon' type='image/png' href='img/lhlogo.png' />
@@ -110,7 +111,7 @@
 <!-- ============================================================================ -->
                                     <!--Gallery-->
 <!-- ============================================================================ -->
-<section>
+<section id="desk-g">
 	<div class="ui container gallery">
 		<h1 class="ui header"> Gallery </h1>
         <div class="ui divider"></div>
@@ -148,6 +149,40 @@
         </div>
     </div>
 </section>
+
+<section id="mob-g">
+  		<h1 class="ui header"> Gallery </h1>
+  		<div id="demo" class="carousel slide" data-ride="carousel">
+
+  		<!-- Indicators -->
+  		<ul class="carousel-indicators">
+    	<li data-target="#demo" data-slide-to="0" class="active"></li>
+    	<li data-target="#demo" data-slide-to="1"></li>
+    	<li data-target="#demo" data-slide-to="2"></li>
+  		</ul>
+
+  		<!-- The slideshow -->
+  		<div class="carousel-inner">
+    		<div class="carousel-item active">
+      			<img src="img/gallery/1.jpg">
+    		</div>
+    		<div class="carousel-item">
+      			<img src="img/gallery/2.jpg">
+    		</div>
+    		<div class="carousel-item">
+      			<img src="img/gallery/3.jpg">
+    		</div>
+  		</div>
+
+  		<!-- Left and right controls -->
+  		<a class="carousel-control-prev" href="#demo" data-slide="prev">
+   		 <span class="carousel-control-prev-icon"></span>
+  		</a>
+  		<a class="carousel-control-next" href="#demo" data-slide="next">
+    		<span class="carousel-control-next-icon"></span>
+  		</a>
+		</div>
+</section>
 <!-- ============================================================================ -->
                                     <!--Find Us-->
 <!-- ============================================================================ -->
@@ -161,7 +196,7 @@
 
 <!-- ============================================================================ -->
                                     <!--Footer-->
-<!-- ============================================================================ -->
+<!-- ============================================================================ 
 <footer class="footer">
     <div style="color: white; text-align: center; max-width: 1155px; margin: 0 auto; padding-top: 25px;">
         <div class="ui container">
@@ -218,7 +253,7 @@
 
     <p style="color: white; position: absolute; bottom: 0; left: 45%;">&copy 2018 LNMHacks</p>
 </footer>
-
+-->
 <script>
     // function initMap() {
     //     var uluru = {lat: 40.7504444, lng: -73.981455};
@@ -304,5 +339,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.js"></script>
 <script src="js/lightbox-plus-jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
