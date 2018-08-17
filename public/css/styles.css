@@ -65,7 +65,9 @@ nav{
     background: white;
     overflow: hidden;
 }
-
+.column2{
+    border: 2px solid gray;
+}
 .content article {
     padding: 100px 0;
     max-width: 720px;
