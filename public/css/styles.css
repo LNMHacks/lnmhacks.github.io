@@ -41,6 +41,13 @@ nav{
     background-attachment: fixed;
     background-color: rgba(24,25,29,1);
 }
+.column1{
+    
+    border: solid gray 2px;   
+}
+
+
+
 
 .steve-jobs{
     position: relative;
@@ -64,6 +71,7 @@ nav{
     max-width: 720px;
     margin: 0 auto;
     text-align: center;
+    user-select: none;
 }
 
 .lnmiit {
