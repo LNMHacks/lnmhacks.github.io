@@ -114,7 +114,7 @@
 -->
 <div class="container">
     <div class="row">
-        <div class="tracks-heading">
+        <div class="col-12">
                 <h2>TRACKS</h2>
         </div>
     </div>
@@ -248,21 +248,95 @@
   		</a>
 		</div>
 </section>
+<br />
 <!-- ============================================================================ -->
                                     <!--Find Us-->
 <!-- ============================================================================ -->
-<section class="content reveal">
+<!-- <section class="content reveal">
     <article style="padding: 50px 0">
         <h1>Find Us</h1>
         <hr>
     </article>
     <div id="map"></div>
-</section>
+</section> -->
+<div class="container">
+    <div class="row">
+        <div class="d-flex justify-content-around col-12">
+            <h1>Find Us&emsp;<i class="fa fa-map-marker"></i></h1>
+            <hr />
+        </div>
+    </div>
+    <div class="row">
+        <div class="d-flex col-sm-6 align-items-center row">
+            <h2 class="d-flex col-12 align-items-center">The LNM Institute of Information Technology</h2>
+            <h3 class="d-flex col-12 align-items-center">Rupa Ki Nangal, Post-Sumel, Via-Jamdoli</h3>
+            <h3 class="d-flex col-12 align-items-center">Jaipur, Rajasthan 302031</h3>
+        </div>
+        <div class="d-flex col-sm-6 align-items-center">
+            <div id="map">
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- ============================================================================ -->
                                     <!--Footer-->
 <!-- ============================================================================ -->
 <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="d-flex justify-content-around align-items-center col-sm col-md-6 row">
+                <div class="col-sm-6">
+                    <h3>CONTACT US!</h3><br />
+                    <ul>
+                        <li>Twitter&emsp;<i class="fa fa-twitter"></i></li><br />
+                        <li>Facebook&emsp;<i class="fa fa-facebook"></i></li><br />
+                        <li>Medium&emsp;<i class="fa fa-medium"></i></li><br />
+                        <li>Instagram&emsp;<i class="fa fa-instagram"></i></li><br />
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h3 class="mt-4">OTHER LINKS</h3><br />
+                     <ul>
+                        <li>About</li><br />
+                        <li>Tracks</li><br />
+                        <li>FAQ</li><br />
+                        <li>Gallery</li><br />
+                        <li>Sponsor Us</li><br />
+                     </ul>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around align-items-center col-sm col-md-6">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <h3>Have a Query? Ask Us!</h3><br />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-3"><label for="formName">Name</label></div>
+                        <div class="col-sm-9"><input type="text" class="form-control" id="formName" placeholder="Enter your name"></div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-3"><label for="formEmail">Email</label></div>
+                        <div class="col-sm-9"><input type="email" class="form-control" id="formEmail" placeholder="Enter your email address"></div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-3"><label for="formQuery">Password</label></div>
+                        <div class="col-sm-9"><input type="text" class="form-control" id="formQuery" placeholder="Type in your Query!!"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="cancel" class="btn btn-primary">Cancel</button>
+                </form>
+            </div>
+            <div class="col-12">
+                <p style="color: white; position: absolute; bottom: 0; left: 45%;">&copy 2018 LNMHacks</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- <footer class="footer">
     <div style="color: white; text-align: center; max-width: 1155px; margin: 0 auto; padding-top: 25px;">
         <div class="ui container">
             <div class="ui grid">
@@ -317,7 +391,7 @@
     </div>
 
     <p style="color: white; position: absolute; bottom: 0; left: 45%;">&copy 2018 LNMHacks</p>
-</footer>
+</footer> -->
 <script>
     // function initMap() {
     //     var uluru = {lat: 40.7504444, lng: -73.981455};
