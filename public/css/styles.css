@@ -32,7 +32,7 @@ nav{
 }
 
 #particles-js{
-    background-image: url('../img/star-field.jpg');
+   //* background-image: url('../img/star-field.jpg'); */
     position: relative;
     height: 600px;
     background-size: contain;
@@ -42,7 +42,7 @@ nav{
     background-color: rgba(24,25,29,1);
 }
 
-.steve-jobs{
+/* .steve-jobs{
     position: relative;
     height: 600px;
     background-image: url('../img/steveJobs.jpg');
@@ -50,7 +50,7 @@ nav{
     background-position: top right;
     background-attachment: fixed;
     background-repeat: no-repeat;
-}
+} */
 /* Sections */
 .content {
     position: relative;
@@ -127,3 +127,41 @@ ul{
     margin-bottom: 300px;
 }
 /*EOF*/
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.btn {
+    font-family: "Helvetica", serif;
+    font-size: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.gallery-img {
+    width: 400px;
+    height: 150px;
+    transition-duration: 2s;
+}
+
+.gallery-img:hover {
+    width: 1000px;
+    height: 450px;
+    z-index: 100;
+    position: absolute;
+}
+

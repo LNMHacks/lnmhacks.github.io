@@ -42,8 +42,9 @@
         </div>
     </div>
 </nav> -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"><img style="width: 50px; height: 50px;" src="img/light.png" alt="LNM Hacks 3.0"/>  LNM Hacks 3.0</a>
+  &emsp;
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLnm" aria-controls="navberLnm" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -53,34 +54,59 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Home</a>
       </li>
+      &emsp;
+      
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#tracks">Tracks</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Tracks</a>
-      </li>
+      &emsp;
       <li class="nav-item">
         <a class="nav-link" href="#">FAQ</a>
       </li>
+      &emsp;
       <li class="nav-item">
-        <a class="nav-link" href="#">Gallery</a>
+        <a class="nav-link" href="#gallery">Gallery</a>
       </li>
+      &emsp;
+      <li class="nav-item">
+        <a class="nav-link" href="#findus">Find Us</a>
+      </li>
+      &emsp;
+      <li class="nav-item">
+        <a class="nav-link" href="#contacts">Contact</a>
+      </li>
+      &emsp;
       <li class="nav-item">
         <a class="nav-link" href="#">Sponsor Us</a>
       </li>
+      &emsp;
     </ul>
   </div>
 </nav>
+<br />
+<br />
+<br />
 <!-- ============================================================================ -->
                                     <!--Header-->
 <!-- ============================================================================ -->
-<header class="star-field">
-    <div id="particles-js">
-        <!--<div class="steve-jobs"></div>-->
+    <header class="star-field" style="z-index: 10;">
+    <div id="particles-js" style="z-index: 50">
+        <div class="header-logo">
+            <img src="img/dark.png" style="height: 400px; width: 400px; position: absolute; left: 25%; top: 5%;">
+            <h1 style="color: white; position: absolute; left: 50%; top: 40%; font-size: 60px;">LNM Hacks 3.0</h1>
+        </div>
+        <div class="container">
+                <button type="button" class="btn btn-outline-primary" style="  height: 50px; width: 300px; position: absolute; top: 70%; left:40% ">Register!</button>
+        </div>
     </div>
 </header>
 
-<!-- ============================================================================ -->
+<br />
+<br />
+<br />
+
+
+<!-- ============================================================================ position: relative; top: 200px; left: 40%;-->
                                     <!--Tracks-->
 <!-- ============================================================================ -->
 <!--<section class="content">
@@ -112,12 +138,13 @@
     </article>
 </section>
 -->
-<div class="container">
+<div id="tracks" class="container">
     <div class="row">
-        <div class="col-12">
-                <h2>TRACKS</h2>
+        <div class="mx-auto">
+                <h1>TRACKS</h1>
         </div>
     </div>
+    <hr />
     <div class="row">
         <div class="d-flex justify-content-around col-md-4">
             <img src="img/tracks/iot.png" alt="Internet of Things" width="200" height="200" />
@@ -142,6 +169,9 @@
         </div>
     </div>
 </div>
+<br />
+<br />
+<br />
 
 
 
@@ -149,31 +179,141 @@
 <!-- ============================================================================ -->
                                     <!--About-->
 <!-- ============================================================================ -->
-<section class="lnmiit">
-    <div class="ui container">
-        <h1 class="about-header">
+<div class="lnmiit">
+    <div class="container">
+        <h1 class="about-header" style="font-family:Proxima Nova Soft; font-size: 50px;">
             Make Things and Break Things
         </h1>
-        <p class="about-text">
+        <p class="about-text mx-auto" style="font-family:Proxima Nova Soft; position: absolute; bottom: 20%;">
         Whether a web app or a mobile app or just some random thought that could possibly solve a real world problem , we're excited to see what you make and how you make. You can create the next big tech thing in the world. The winners will have a chance to become a part of the HACKSQUAD.
         </p>
     </div>
-</section>
+</div>
+<br />
+<br />
+<br />
 
+<div class="container">
+    <div class="row">
+        <div class="mx-auto">
+                <h1>PAST SPONSORS&emsp;<i class="fa fa-"></i></h1>
+        </div>
+    </div>
+    <hr />
+    <br />
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top mx-auto" src="img/past-sponsors/github.png" alt="Github">
+                <div class="card-body">
+                    <p class="card-text">Github</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top mx-auto" src="img/past-sponsors/gitlab.png" alt="Gitlab">
+                <div class="card-body">
+                    <p class="card-text">Gitlab</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top mx-auto" src="img/past-sponsors/digital.png" alt="Digital Ocean">
+                <div class="card-body">
+                    <p class="card-text">Digital Ocean</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top mx-auto" src="img/past-sponsors/heroku.png" alt="Heroku">
+                <div class="card-body">
+                    <p class="card-text">Heroku</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top mx-auto" src="img/past-sponsors/zulip.png" alt="Zulip">
+                <div class="card-body">
+                    <p class="card-text">Zulip</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top mx-auto" src="img/past-sponsors/balsamiq.png" alt="Balsamiq">
+                <div class="card-body">
+                    <p class="card-text">Balsamiq</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<br />
+
+
+<div id="gallery" class="container">
+    <div class="row">
+        <div class="mx-auto">
+                <h1>GALLERY&emsp;<i class="fa fa-camera"></i></h1>
+        </div>
+    </div>
+    <hr />
+    <br />
+    <div class="row">
+        <div class="col-md-4">
+            <img class="gallery-img" src="img/gallery/1.jpg">
+        </div>
+        <div class="col-md-4">
+            <img class="gallery-img" src="img/gallery/2.jpg">
+        </div>
+        <div class="col-md-4">
+            <img class="gallery-img" src="img/gallery/3.jpg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <img class="gallery-img" src="img/gallery/4.jpg">
+        </div>
+        <div class="col-md-4">
+            <img class="gallery-img" src="img/gallery/5.jpg">
+        </div>
+        <div class="col-md-4">
+            <img class="gallery-img" src="img/gallery/6.jpg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <img class="gallery-img" src="img/gallery/7.jpg">
+        </div>
+        <div class="col-md-4">
+            <img class="gallery-img" src="img/gallery/8.jpg">
+        </div>
+        <div class="col-md-4">
+            <img class="gallery-img" src="img/gallery/9.jpg">
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<br />
 <!-- ============================================================================ -->
                                     <!--Sponsors-->
 <!-- ============================================================================ -->
-<section class="content">
-    <article>
-        <h1>Unique Style</h1>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-    </article>
-</section>
 
 <!-- ============================================================================ -->
                                     <!--Gallery-->
 <!-- ============================================================================ -->
+<!--
 <section class="content">
     <div id="desk-g">
         <div class="ui container gallery">
@@ -219,14 +359,13 @@
   		<h1 class="ui header"> Gallery </h1>
   		<div id="demo" class="carousel slide" data-ride="carousel">
 
-  		<!-- Indicators -->
   		<ul class="carousel-indicators">
     	<li data-target="#demo" data-slide-to="0" class="active"></li>
     	<li data-target="#demo" data-slide-to="1"></li>
     	<li data-target="#demo" data-slide-to="2"></li>
   		</ul>
 
-  		<!-- The slideshow -->
+  		
   		<div class="carousel-inner">
     		<div class="carousel-item active">
       			<img src="img/gallery/1.jpg">
@@ -239,7 +378,7 @@
     		</div>
   		</div>
 
-  		<!-- Left and right controls -->
+  		
   		<a class="carousel-control-prev" href="#demo" data-slide="prev">
    		 <span class="carousel-control-prev-icon"></span>
   		</a>
@@ -248,7 +387,7 @@
   		</a>
 		</div>
 </section>
-<br />
+-->
 <!-- ============================================================================ -->
                                     <!--Find Us-->
 <!-- ============================================================================ -->
@@ -259,33 +398,36 @@
     </article>
     <div id="map"></div>
 </section> -->
-<div class="container">
+<div id="findus" class="container">
     <div class="row">
         <div class="d-flex justify-content-around col-12">
-            <h1>Find Us&emsp;<i class="fa fa-map-marker"></i></h1>
-            <hr />
+            <h1 class="mx-auto">FIND US&emsp;<i class="fa fa-map-marker"></i></h1>
         </div>
     </div>
+    <hr />
     <div class="row">
         <div class="d-flex col-sm-6 align-items-center row">
             <h2 class="d-flex col-12 align-items-center">The LNM Institute of Information Technology</h2>
             <h3 class="d-flex col-12 align-items-center">Rupa Ki Nangal, Post-Sumel, Via-Jamdoli</h3>
             <h3 class="d-flex col-12 align-items-center">Jaipur, Rajasthan 302031</h3>
         </div>
-        <div class="d-flex col-sm-6 align-items-center">
+        <div class="ml-3 d-flex col-sm-6 align-items-center">
             <div id="map">
             </div>
         </div>
     </div>
 </div>
+<br />
+<br />
+<br />
 
 <!-- ============================================================================ -->
                                     <!--Footer-->
 <!-- ============================================================================ -->
-<footer class="footer">
+<footer id="contacts" class="footer">
     <div class="container">
         <div class="row">
-            <div class="d-flex justify-content-around align-items-center col-sm col-md-6 row">
+            <div class="d-flex justify-content-around align-items-center col-sm-6 row">
                 <div class="col-sm-6">
                     <h3>CONTACT US!</h3><br />
                     <ul>
@@ -306,7 +448,7 @@
                      </ul>
                 </div>
             </div>
-            <div class="d-flex justify-content-around align-items-center col-sm col-md-6">
+            <div class="d-flex justify-content-around align-items-center col-sm-6">
                 <form>
                     <div class="row">
                         <div class="col">
