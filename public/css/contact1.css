@@ -1,0 +1,31 @@
+#contact.section {
+  padding-bottom: 0px;
+}
+
+.contact {
+  
+ padding-left: 3%;
+}
+
+.contact h3 {
+  color: #dd0a37;
+  display: block;
+}
+
+.section-title {
+    text-align: center;
+    display: block;
+}
+.contact1 {
+   width:50%;
+display: block;
+
+
+float: left;
+margin-left:1%;
+ text-align: center;
+}
+
+
+
+
