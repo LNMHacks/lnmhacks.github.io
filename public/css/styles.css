@@ -1,3 +1,21 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+}
+
+h1 {
+    text-transform: uppercase; 
+    letter-spacing: 0.06em; 
+    margin: 40px,0;
+    text-align:center;
+    color:white;
+
+}
+p{
+    font-size:20px;
+    color:white;
+}
+
 /* Navbar */
 nav{
     background-color: #f1f1f1;
@@ -32,7 +50,7 @@ nav{
 }
 
 #particles-js{
-   //* background-image: url('../img/star-field.jpg'); */
+    background-image: url('../img/star-field.jpg');
     position: relative;
     height: 600px;
     background-size: contain;
@@ -49,7 +67,7 @@ nav{
 
 
 
-/* .steve-jobs{
+.steve-jobs{
     position: relative;
     height: 600px;
     background-image: url('../img/steveJobs.jpg');
@@ -57,7 +75,7 @@ nav{
     background-position: top right;
     background-attachment: fixed;
     background-repeat: no-repeat;
-} */
+}
 /* Sections */
 .content {
     position: relative;
@@ -85,9 +103,13 @@ nav{
     background-position: top center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.3);
+    
+
 }
 
 .footer{
+    position: fixed;
     max-width: 100%;
     margin: 0 auto;
     color: white;
@@ -102,28 +124,22 @@ nav{
     background-repeat: no-repeat;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-}
 
-h1 {
-     letter-spacing: 0.06em; margin-bottom: 40px;
-}
 
-#map {
-    width: 100%; height: 400px; margin-top: 40px; margin-bottom: 40px;
-}
+
 
 .info-window {
     font-family: 'Montserrat', sans-serif;
+    font-color:white;
+    font-display: bold;
 }
 
 .info-content {
-    color: #999;
+    color: red;
 }
 
 .temp {
-    color: white;
+    color: red;
     /*height: 300px;*/
     text-align: center;
 }
@@ -135,43 +151,40 @@ ul{
 
 .content.reveal{
     margin-bottom: 300px;
-}
-/*EOF*/
+    
 
-.card-img-top {
-    width: 200px;
-    height: 200px;
 }
+#map {
+    width: 100%; height: 300px; 
 
-.card-text {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 500;
+    border: 1px solid #4d414e;
+    
+    
+    
 }
 
-.nav-link {
-    font-size: 20px;
-}
+#address{
 
-.btn {
-    font-family: "Helvetica", serif;
-    font-size: 20px;
-}
+font-size:30;
+width:50%;
+margin-right:15%;
+text-align:left;
+margin-left:5%;
+display: block;
 
-.card {
-    border: none;
-}
 
-.gallery-img {
-    width: 400px;
-    height: 150px;
-    transition-duration: 2s;
-}
 
-.gallery-img:hover {
-    width: 1000px;
-    height: 450px;
-    z-index: 100;
-    position: absolute;
-}
 
+}
+.left{float: right;width:50%;
+
+}
+.right{float:left;width:50% ;}
+.clear{clear:both; display:block;}
+
+.overlay{
+    background-color:black;
+    height: inherit;
+    opacity: 0.3;
+    font-color:white;
+}
