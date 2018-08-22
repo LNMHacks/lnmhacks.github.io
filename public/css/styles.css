@@ -104,8 +104,13 @@ nav{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: rgba(0,0,0,0.3);
-    
+}
 
+.overlay{
+    background-color:black;
+    height: inherit;
+    opacity: 0.3;
+    font-color:white;
 }
 
 .footer{
