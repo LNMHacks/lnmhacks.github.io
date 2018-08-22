@@ -145,7 +145,7 @@ ul{
 
 .card-text {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -157,6 +157,8 @@ ul{
     font-family: "Helvetica", serif;
     font-size: 20px;
 }
+
+
 
 /*.gallery-img {
     width: 400px;
@@ -171,6 +173,7 @@ ul{
     position: absolute;
 }
 */
+
 .card {
     width: 300px;
     height: 300px;
@@ -179,7 +182,9 @@ ul{
 .card:hover {
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+#moreSponsorsButton {
+    width: 200px;
+}
 /*
  .fixed-top.scrolled {
   background-color: rgba(248,249,250,1.0); !important;

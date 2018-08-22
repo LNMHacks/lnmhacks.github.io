@@ -12,7 +12,7 @@
     <link rel='icon' type='image/png' href='img/lhlogo.png' />
 
     <link rel="stylesheet" type="text/css" href="css/tracks.css">
-<body>
+<body style="z-index: 10;">
 
 <!-- ============================================================================ -->
                                     <!--NavBar-->
@@ -42,41 +42,39 @@
         </div>
     </div>
 </nav> -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img style="width: 50px; height: 50px;" src="img/light.png" alt="LNM Hacks 3.0"/>  LNM Hacks 3.0</a>
-  &emsp;
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="z-index: 20;">
+  <a class="navbar-brand" href="#"><img style="width: 50px; height: 50px;" src="img/light.png" alt="LNM Hacks 3.0"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLnm" aria-controls="navberLnm" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarLnm">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item">
+  <div class="collapse navbar-collapse" style="background-color: #f8f9fa;" id="navbarLnm">
+    <ul class="navbar-nav mr-2 mt-2 mt-lg-0" style="float: right;">
+      <li class="nav-item pull-right">
         <a class="nav-link" href="#">Home</a>
       </li>
       &emsp;
-      
-      <li class="nav-item">
+      <li class="nav-item pull-right">
         <a class="nav-link" href="#tracks">Tracks</a>
       </li>
       &emsp;
-      <li class="nav-item">
+      <li class="nav-item pull-right">
         <a class="nav-link" href="#">FAQ</a>
       </li>
       &emsp;
-      <li class="nav-item">
+      <li class="nav-item pull-right">
         <a class="nav-link" href="#gallery">Gallery</a>
       </li>
       &emsp;
-      <li class="nav-item">
+      <li class="nav-item pull-right">
         <a class="nav-link" href="#findus">Find Us</a>
       </li>
       &emsp;
-      <li class="nav-item">
+      <li class="nav-item pull-right">
         <a class="nav-link" href="#contacts">Contact</a>
       </li>
       &emsp;
-      <li class="nav-item">
+      <li class="nav-item pull-right">
         <a class="nav-link" href="#">Sponsor Us</a>
       </li>
       &emsp;
@@ -146,25 +144,25 @@
     </div>
     <hr />
     <div class="row">
-        <div class="d-flex justify-content-around col-md-4">
+        <div class="d-flex justify-content-around col-4">
             <img src="img/tracks/iot.png" alt="Internet of Things" width="200" height="200" />
         </div>
-        <div class="d-flex justify-content-around col-md-4">
+        <div class="d-flex justify-content-around col-4">
             <img src="img/tracks/fintech.png" alt="Fintech" width="200" height="200" />
         </div>
-        <div class="d-flex justify-content-around col-md-4">
+        <div class="d-flex justify-content-around col-4">
             <img src="img/tracks/retail.png" alt="Retail" width="200" height="200" />
         </div>
     </div>
     <br />
     <div class="row">
-        <div class="d-flex col-md-4 justify-content-around">
+        <div class="d-flex col-4 justify-content-around">
             <img src="img/tracks/ml.png" alt="Machine Learning" width="200" height="200" />
         </div>
-        <div class="d-flex col-md-4 justify-content-around">
+        <div class="d-flex col-4 justify-content-around">
             <img src="img/tracks/cv.png" alt="Computer Vision" width="200" height="200" />
         </div>
-        <div class="d-flex col-md-4 justify-content-around">
+        <div class="d-flex col-4 justify-content-around">
             <img src="img/tracks/edtech.png" alt="EdTech" width="200" height="200" />
         </div>
     </div>
@@ -203,7 +201,7 @@
     <br />
     <div class="row">
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/github.png" alt="Github">
                 <div class="card-body">
                     <p class="card-text">Github</p>
@@ -211,7 +209,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/gitlab.png" alt="Gitlab">
                 <div class="card-body">
                     <p class="card-text">Gitlab</p>
@@ -219,7 +217,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/digital.png" alt="Digital Ocean">
                 <div class="card-body">
                     <p class="card-text">Digital Ocean</p>
@@ -231,7 +229,7 @@
     <br />
     <div class="row">
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/heroku.png" alt="Heroku">
                 <div class="card-body">
                     <p class="card-text">Heroku</p>
@@ -239,7 +237,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/zulip.png" alt="Zulip">
                 <div class="card-body">
                     <p class="card-text">Zulip</p>
@@ -247,7 +245,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/balsamiq.png" alt="Balsamiq">
                 <div class="card-body">
                     <p class="card-text">Balsamiq</p>
@@ -261,7 +259,7 @@
 <div id="moreSponsors" class="container" style="display: none;">
     <div class="row">
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/hackerearth.png" alt="Hackerearth">
                 <div class="card-body">
                     <p class="card-text">Hackerearth</p>
@@ -269,7 +267,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/sketch.png" alt="Sketch">
                 <div class="card-body">
                     <p class="card-text">Sketch</p>
@@ -277,7 +275,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/kaggle.png" alt="Kaggle">
                 <div class="card-body">
                     <p class="card-text">Kaggle</p>
@@ -289,7 +287,7 @@
     <br />
     <div class="row">
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/techdomains.png" alt="Tech Domains">
                 <div class="card-body">
                     <p class="card-text">Tech Domains</p>
@@ -297,7 +295,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/stickermule.png" alt="Sticker Mule">
                 <div class="card-body">
                     <p class="card-text">Sticker Mule</p>
@@ -305,7 +303,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/twilio.png" alt="Twilio">
                 <div class="card-body">
                     <p class="card-text">Twilio</p>
@@ -317,7 +315,7 @@
     <br />
     <div class="row">
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/jetbrains.png" alt="Jet Brains">
                 <div class="card-body">
                     <p class="card-text">Jet Brains</p>
@@ -325,7 +323,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/hackersociety.png" alt="Hacker Society">
                 <div class="card-body">
                     <p class="card-text">Hacker Society</p>
@@ -333,7 +331,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/temboo.png" alt="Temboo">
                 <div class="card-body">
                     <p class="card-text">Temboo</p>
@@ -345,7 +343,7 @@
     <br />
     <div class="row">
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/dubeat.png" alt="DU Beat">
                 <div class="card-body">
                     <p class="card-text">DU Beat</p>
@@ -353,7 +351,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/eatmynews.png" alt="Eat My News">
                 <div class="card-body">
                     <p class="card-text">Eat My News</p>
@@ -361,7 +359,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card sponsor-card">
                 <img class="card-img-top mx-auto" src="img/past-sponsors/challengerocket.png" alt="Challenge Rocket">
                 <div class="card-body">
                     <p class="card-text">Challenge Rocket</p>
@@ -530,29 +528,7 @@
         <hr>
     </article>
     <div id="map"></div>
-</section> -->
-<div id="findus" class="container">
-    <div class="row">
-        <div class="d-flex justify-content-around col-12">
-            <h1 class="mx-auto">FIND US&emsp;<i class="fa fa-map-marker"></i></h1>
-        </div>
-    </div>
-    <hr />
-    <div class="row">
-        <div class="d-flex col-sm-6 align-items-center row">
-            <h2 class="d-flex col-12 align-items-center">The LNM Institute of Information Technology</h2>
-            <h3 class="d-flex col-12 align-items-center">Rupa Ki Nangal, Post-Sumel, Via-Jamdoli</h3>
-            <h3 class="d-flex col-12 align-items-center">Jaipur, Rajasthan 302031</h3>
-        </div>
-        <div class="ml-3 d-flex col-sm-6 align-items-center">
-            <div id="map">
-            </div>
-        </div>
-    </div>
-</div>
-<br />
-<br />
-<br />
+</section>
 
 <!-- ============================================================================ -->
                                     <!--Footer-->
