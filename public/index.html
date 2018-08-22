@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <title>LNMHacks 2018</title>
+    <head>
+      <title>LNMHacks 2018</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -10,38 +11,14 @@
     <link rel='stylesheet' href='css/lightbox.min.css'>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel='icon' type='image/png' href='img/lhlogo.png' />
-
     <link rel="stylesheet" type="text/css" href="css/tracks.css">
-<body style="z-index: 10;">
-
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    </head>
+  <body>
 <!-- ============================================================================ -->
                                     <!--NavBar-->
 <!-- ============================================================================ -->
-<!--<nav>
-    <div class="ui secondary menu">
-        <div class="item logo">
-            <img class="icon" src="img/lnmhacks2.png">
-        </div>
 
-        <div class="right menu">
-            <a class="active item">
-                ABOUT
-            </a>
-            <a class="item">
-                TRACKS
-            </a>
-            <a class="item">
-                FAQ
-            </a>
-            <a class="item">
-                GALLERY
-            </a>
-            <a class="item">
-                SPONSOR US
-            </a>
-        </div>
-    </div>
-</nav> -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="z-index: 20;">
   <a class="navbar-brand" href="#"><img style="width: 50px; height: 50px;" src="img/light.png" alt="LNM Hacks 3.0"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLnm" aria-controls="navberLnm" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,61 +58,18 @@
     </ul>
   </div>
 </nav>
-<br />
-<br />
-<br />
 <!-- ============================================================================ -->
                                     <!--Header-->
 <!-- ============================================================================ -->
-    <header class="star-field" style="z-index: 10;">
-    <div id="particles-js" style="z-index: 50">
-        <div class="header-logo">
-            <img src="img/dark.png" style="height: 400px; width: 400px; position: absolute; left: 25%; top: 5%;">
-            <h1 style="color: white; position: absolute; left: 50%; top: 40%; font-size: 60px;">LNM Hacks 3.0</h1>
-        </div>
-        <div class="container">
-                <button type="button" class="btn btn-outline-primary" style="  height: 50px; width: 300px; position: absolute; top: 70%; left:40% ">Register!</button>
-        </div>
+<header class="star-field">
+    <div id="particles-js">
     </div>
 </header>
 
-<br />
-<br />
-<br />
-
-
-<!-- ============================================================================ position: relative; top: 200px; left: 40%;-->
+<!-- ============================================================================ -->
                                     <!--Tracks-->
 <!-- ============================================================================ -->
-<!--<section class="content">
-    <article class="ui container ">
-	    <div class="tracks-heading">
-	      <h2>Tracks</h2>
-	    </div>
-    <hr>
-	    <div class="ui grid tracks-icon">
-	        <div class="">
-	            <img alt="Internet of Things" border="0" src="img/tracks/iot.png" width="175">
-	        </div>
-	        <div class="">
-	            <img alt="FinTech" border="0" src="img/tracks/fintech.png" width="175">
-	        </div>
-	        <div class="">
-	            <img alt="Retail" border="0" src="img/tracks/retail.png" width="175">
-	        </div>
-	        <div class="">
-	            <img alt="Machine Learning" border="0" src="img/tracks/ml.png" width="175">
-	        </div>
-	        <div class="">
-	            <img alt="Computer Vision" border="0" src="img/tracks/cv.png" width="175">
-	        </div>
-	        <div class="">
-	            <img alt="End Tech" border="0" src="img/tracks/edtech.png" width="175">
-	        </div>
-	    </div>                            
-    </article>
-</section>
--->
+
 <div id="tracks" class="container">
     <div class="row">
         <div class="mx-auto">
@@ -171,30 +105,29 @@
 <br />
 <br />
 
-
-
-
 <!-- ============================================================================ -->
                                     <!--About-->
 <!-- ============================================================================ -->
-<div class="lnmiit">
-    <div class="container">
-        <h1 class="about-header" style="font-family:Proxima Nova Soft; font-size: 50px;">
-            Make Things and Break Things
-        </h1>
-        <p class="about-text mx-auto" style="font-family:Proxima Nova Soft; position: absolute; bottom: 20%;">
-        Whether a web app or a mobile app or just some random thought that could possibly solve a real world problem , we're excited to see what you make and how you make. You can create the next big tech thing in the world. The winners will have a chance to become a part of the HACKSQUAD.
-        </p>
-    </div>
-</div>
-<br />
-<br />
-<br />
 
-<div class="container">
+<section class="lnmiit">
+  <div class="overlay">         
+    <h1>
+      Make Things and Break Things
+    </h1>
+    <p >
+      Whether a web app or a mobile app or just some random thought that could possibly solve a real world problem , we're excited to see what you make and how you make. You can create the next big tech thing in the world. The winners will have a chance to become a part of the HACKSQUAD.
+    </p>    
+  </div>
+</section>
+
+<!-- ============================================================================ -->
+                                    <!--Sponsors-->
+<!-- ============================================================================ -->
+
+  <div class="container">
     <div class="row">
         <div class="mx-auto">
-                <h1>PAST SPONSORS&emsp;<i class="fa fa-"></i></h1>
+                <h1>PAST SPONSORS</i></h1>
         </div>
     </div>
     <hr />
@@ -385,10 +318,14 @@
 <br />
 
 
-<div id="gallery" class="container">
+<!-- ============================================================================ -->
+                                    <!--Gallery-->
+<!-- ============================================================================ -->
+
+    <div id="gallery" class="container">
     <div class="row">
         <div class="mx-auto">
-                <h1>GALLERY&emsp;<i class="fa fa-camera"></i></h1>
+                <h1>GALLERY</h1>
         </div>
     </div>
         <hr />
@@ -435,214 +372,22 @@
 <br />
 <br />
 <br />
-<!-- ============================================================================ -->
-                                    <!--Sponsors-->
-<!-- ============================================================================ -->
-
-<!-- ============================================================================ -->
-                                    <!--Gallery-->
-<!-- ============================================================================ -->
-<!--
-<section class="content">
-    <div id="desk-g">
-        <div class="ui container gallery">
-            <h1 class="ui header"> Gallery </h1>
-            <div class="ui divider"></div>
-            <div class="ui grid">
-                <div class="four wide">
-                    
-                    <a href="img/gallery/1.jpg" class="ui bordered image" data-lightbox="mygallery" data-title="sample1"><img src="img/gallery/1.jpg" width="250"></a>
-                </div>
-                <div class="four wide">
-                    <a href="img/gallery/2.jpg" class="ui bordered image" data-lightbox="mygallery" data-title="sample2"><img src="img/gallery/2.jpg" width="250"></a>
-                </div>
-                <div class="four wide">
-                    <a href="img/gallery/3.jpg" class="ui bordered image" data-lightbox="mygallery" data-title="sample3"><img src="img/gallery/3.jpg" width="250"></a>
-                </div>
-                <div class="four wide">
-                    <a href="img/gallery/4.jpg" class="ui bordered image" data-lightbox="mygallery" data-title="sample4"><img src="img/gallery/4.jpg" width="250"></a>
-               </div>
-                <div class="four wide">
-                    <a href="img/gallery/5.jpg" class="ui bordered image" data-lightbox="mygallery" data-title="sample"><img src="img/gallery/5.jpg" width="250"></a>
-                </div>
-                <div class="four wide">
-                    <a href="img/gallery/6.jpg" class="ui bordered image" data-lightbox="mygallery" data-title="sample"><img src="img/gallery/6.jpg" width="250"></a>
-                </div>
-                <div class="four wide">
-                    <a href="img/gallery/7.jpg" class="ui bordered image" data-lightbox="mygallery" data-title="sample"><img src="img/gallery/7.jpg" width="250"></a>
-                </div>
-                <div class="four wide">
-                    <a href="img/gallery/8.jpg" class="ui bordered image" data-lightbox="mygallery" data-title="sample"><img src="img/gallery/8.jpg" width="250"></a>
-                </div>
-                <div class="four wide">
-                    <a href="img/gallery/9.jpg" class="ui bordered image" data-lightbox="mygallery" data-title="sample"><img src="img/gallery/9.jpg" width="250"></a>
-                </div>
-                <div class="four wide">
-                    <a href="img/gallery/10.jpg" class="ui bordered image" data-lightbox="mygallery" data-title="sample"><img src="img/gallery/10.jpg" width="250"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="mob-g">
-  		<h1 class="ui header"> Gallery </h1>
-  		<div id="demo" class="carousel slide" data-ride="carousel">
-
-  		<ul class="carousel-indicators">
-    	<li data-target="#demo" data-slide-to="0" class="active"></li>
-    	<li data-target="#demo" data-slide-to="1"></li>
-    	<li data-target="#demo" data-slide-to="2"></li>
-  		</ul>
-
-  		
-  		<div class="carousel-inner">
-    		<div class="carousel-item active">
-      			<img src="img/gallery/1.jpg">
-    		</div>
-    		<div class="carousel-item">
-      			<img src="img/gallery/2.jpg">
-    		</div>
-    		<div class="carousel-item">
-      			<img src="img/gallery/3.jpg">
-    		</div>
-  		</div>
-
-  		
-  		<a class="carousel-control-prev" href="#demo" data-slide="prev">
-   		 <span class="carousel-control-prev-icon"></span>
-  		</a>
-  		<a class="carousel-control-next" href="#demo" data-slide="next">
-    		<span class="carousel-control-next-icon"></span>
-  		</a>
-		</div>
-</section>
--->
+    
 <!-- ============================================================================ -->
                                     <!--Find Us-->
 <!-- ============================================================================ -->
-<section class="content reveal">
-    <article>
-
-        <h1>Find Us</h1>
-        <hr>
+    <article style="padding: 50px 0">
+            <h1><a href="#">Find Us</a></h1>
+            <hr>
+        <div class='main'>
+            <div id="map"></div>
+        </div>
     </article>
-    <div id="map"></div>
-</section>
 
 <!-- ============================================================================ -->
                                     <!--Footer-->
 <!-- ============================================================================ -->
-<footer id="contacts" class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="d-flex justify-content-around align-items-center col-sm-6 row">
-                <div class="col-sm-6">
-                    <h3>CONTACT US!</h3><br />
-                    <ul>
-                        <li>Twitter&emsp;<i class="fa fa-twitter"></i></li><br />
-                        <li>Facebook&emsp;<i class="fa fa-facebook"></i></li><br />
-                        <li>Medium&emsp;<i class="fa fa-medium"></i></li><br />
-                        <li>Instagram&emsp;<i class="fa fa-instagram"></i></li><br />
-                    </ul>
-                </div>
-                <div class="col-sm-6">
-                    <h3 class="mt-4">OTHER LINKS</h3><br />
-                     <ul>
-                        <li>About</li><br />
-                        <li>Tracks</li><br />
-                        <li>FAQ</li><br />
-                        <li>Gallery</li><br />
-                        <li>Sponsor Us</li><br />
-                     </ul>
-                </div>
-            </div>
-            <div class="d-flex justify-content-around align-items-center col-sm-6">
-                <form>
-                    <div class="row">
-                        <div class="col">
-                            <h3>Have a Query? Ask Us!</h3><br />
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-sm-3"><label for="formName">Name</label></div>
-                        <div class="col-sm-9"><input type="text" class="form-control" id="formName" placeholder="Enter your name"></div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-sm-3"><label for="formEmail">Email</label></div>
-                        <div class="col-sm-9"><input type="email" class="form-control" id="formEmail" placeholder="Enter your email address"></div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-sm-3"><label for="formQuery">Password</label></div>
-                        <div class="col-sm-9"><input type="text" class="form-control" id="formQuery" placeholder="Type in your Query!!"></div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <button type="cancel" class="btn btn-primary">Cancel</button>
-                </form>
-            </div>
-            <div class="col-12">
-                <p style="color: white; position: absolute; bottom: 0; left: 45%;">&copy 2018 LNMHacks</p>
-            </div>
-        </div>
-    </div>
-</footer>
 
-<!-- <footer class="footer">
-    <div style="color: white; text-align: center; max-width: 1155px; margin: 0 auto; padding-top: 25px;">
-        <div class="ui container">
-            <div class="ui grid">
-                <div class="center aligned row">
-                    <div class="four wide column">
-                        <div class="temp">
-                            <strong>FIND US ON</strong>
-                            <ul>
-                                <li>Twitter</li>
-                                <li>Facebook</li>
-                                <li>Medium</li>
-                                <li>Instagram</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="four wide column">
-                        <div class="temp">
-                            <strong>Other Links</strong>
-                            <ul>
-                                <li>About</li>
-                                <li>Track</li>
-                                <li>FAQ</li>
-                                <li>Gallery</li>
-                                <li>Sponsor us</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="six wide column">
-                        <div class="temp">
-                            <strong style="display: block; margin-bottom: 25px">You can fill this form to sort out your queries</strong>
-                            <form id="test-form" class="ui mini form" action="">
-                                <div class="two fields">
-                                    <div class="field">
-                                        <input type="text" name="user-name" placeholder="Name">
-                                    </div>
-                                    <div class="field">
-                                        <input type="text" name="user-email" placeholder="E-mail">
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <textarea placeholder="Describe your query here" rows="3" name="user-query" id="" cols="30" rows="10"></textarea>
-                                </div>
-                                <div class="field">
-                                    <input id="submit-form" class="ui submit tiny button" value="Submit" type="submit">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <p style="color: white; position: absolute; bottom: 0; left: 45%;">&copy 2018 LNMHacks</p>
-</footer> -->
 <script>
     // function initMap() {
     //     var uluru = {lat: 40.7504444, lng: -73.981455};
