@@ -1,3 +1,7 @@
+p{
+    font-size: 20px;
+}
+
 /* Navbar */
 nav{
     background-color: #f1f1f1;
@@ -46,18 +50,6 @@ nav{
     border: solid gray 2px;   
 }
 
-
-
-
-/* .steve-jobs{
-    position: relative;
-    height: 600px;
-    background-image: url('../img/steveJobs.jpg');
-    background-size: contain;
-    background-position: top right;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-} */
 /* Sections */
 .content {
     position: relative;
@@ -67,13 +59,6 @@ nav{
 }
 .column2{
     border: 2px solid gray;
-}
-.content article {
-    padding: 100px 0;
-    max-width: 720px;
-    margin: 0 auto;
-    text-align: center;
-    user-select: none;
 }
 
 .lnmiit {
@@ -85,6 +70,19 @@ nav{
     background-position: top center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+.overlay{
+    background-color:black;
+    height: inherit;
+    opacity: 0.5;
+    z-index: 4;
+    color:white;
+}
+
+.overlay > .container > h1{
+    color: ;
+
 }
 
 .footer{
@@ -103,19 +101,19 @@ nav{
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
 }
 
 h1 {
-     letter-spacing: 0.06em; margin-bottom: 40px;
+     letter-spacing: 0.06em; 
+     margin: 40px 0 !important;
+     text-transform: uppercase;
+     text-align: center;
 }
 
 #map {
     width: 100%; height: 400px; margin-top: 40px; margin-bottom: 40px;
-}
-
-.info-window {
-    font-family: 'Montserrat', sans-serif;
 }
 
 .info-content {
@@ -124,7 +122,6 @@ h1 {
 
 .temp {
     color: white;
-    /*height: 300px;*/
     text-align: center;
 }
 
@@ -145,7 +142,7 @@ ul{
 
 .card-text {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -159,19 +156,13 @@ ul{
 }
 
 .card {
-    border: none;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
 }
-
-.gallery-img {
-    width: 400px;
-    height: 150px;
-    transition-duration: 2s;
+.card:hover {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.gallery-img:hover {
-    width: 1000px;
-    height: 450px;
-    z-index: 100;
-    position: absolute;
+#moreSponsorsButton {
+    width: 200px;
 }
-
