@@ -11,9 +11,7 @@ nav{
     z-index: 10;
 }
 
-.ui.secondary.menu{
-    padding: 14px 0px;
-}
+
 
 .logo .icon{
     height: 36px;
@@ -80,10 +78,7 @@ nav{
     color:white;
 }
 
-.overlay > .container > h1{
-    color: ;
 
-}
 
 .footer{
     max-width: 100%;
