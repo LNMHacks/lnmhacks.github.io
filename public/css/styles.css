@@ -1,6 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    color:white;
+    color: black;
 }
 
 h1 {
@@ -8,12 +8,10 @@ h1 {
     letter-spacing: 0.06em; 
     margin: 40px,0;
     text-align:center;
-    color:white;
-
 }
+
 p{
-    font-size:20px;
-    color:white;
+    font-size: 20px;
 }
 
 /* Navbar */
@@ -23,10 +21,6 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 10;
-}
-
-.ui.secondary.menu{
-    padding: 14px 0px;
 }
 
 .logo .icon{
@@ -59,23 +53,12 @@ nav{
     background-attachment: fixed;
     background-color: rgba(24,25,29,1);
 }
+
 .column1{
     
     border: solid gray 2px;   
 }
 
-
-
-
-.steve-jobs{
-    position: relative;
-    height: 600px;
-    background-image: url('../img/steveJobs.jpg');
-    background-size: contain;
-    background-position: top right;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
 /* Sections */
 .content {
     position: relative;
@@ -83,15 +66,9 @@ nav{
     background: white;
     overflow: hidden;
 }
+
 .column2{
     border: 2px solid gray;
-}
-.content article {
-    padding: 100px 0;
-    max-width: 720px;
-    margin: 0 auto;
-    text-align: center;
-    user-select: none;
 }
 
 .lnmiit {
@@ -109,8 +86,9 @@ nav{
 .overlay{
     background-color:black;
     height: inherit;
-    opacity: 0.3;
-    font-color:white;
+    opacity: 0.5;
+    z-index: 4;
+    color:white;
 }
 
 .footer{
@@ -129,39 +107,17 @@ nav{
     background-repeat: no-repeat;
 }
 
-
-
-
-
-.info-window {
-    font-family: 'Montserrat', sans-serif;
-    font-color:white;
-    font-display: bold;
-}
-
-.info-content {
-    color: red;
-}
-
-.temp {
-    color: red;
-    /*height: 300px;*/
-    text-align: center;
-}
-
 ul{
     list-style: none;
     padding: 0;
 }
 
-.content.reveal{
-    margin-bottom: 300px;
-    
-
-}
 #map {
-    width: 100%; height: 300px; 
-
+    width: 100%;
+    height: 300px;
+    margin: 40px 0;
+}
+  
 .card-text {
     text-align: center;
     font-size: 20px;
@@ -169,37 +125,16 @@ ul{
     border: 1px solid #4d414e;
 }
 
-#address{
-
-font-size:30;
-width:50%;
-margin-right:15%;
-text-align:left;
-margin-left:5%;
-display: block;
-}
-.left{
-  float: right;width:50%;
-}
-
 .card {
     width: 300px;
     height: 300px;
     padding: 20px;
 }
+
 .card:hover {
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 #moreSponsorsButton {
     width: 200px;
-}
-
-.right{float:left;width:50% ;}
-.clear{clear:both; display:block;}
-
-.overlay{
-    background-color:black;
-    height: inherit;
-    opacity: 0.3;
-    font-color:white;
 }
