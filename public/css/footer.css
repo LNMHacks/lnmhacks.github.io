@@ -1,0 +1,96 @@
+
+.actions li {
+  display: inline;
+  list-style-type: none;
+  
+  font-size: 1.2em;
+  
+
+
+}
+.fa {
+    padding: 25px;
+    
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+    
+    
+}
+
+.abc{
+    padding-left: 60px;
+}
+.footeral{
+    width: 100%;
+    margin:0 auto;
+}
+.abc2{
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa-facebook{
+    color:3B5998 ;
+
+    
+}
+
+.fa-twitter{
+    color:#55ACEE;
+
+}
+
+.fa-medium{
+    color:#66cdaa;
+}
+
+.fa-instagram{
+    color:#fb3958 ;
+}
+/* Add a hover effect if you want 
+.fa:hover {
+    color: #FDFEFE;
+        text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+    
+    text-decoration: none;  
+
+
+}
+
+
+/* Twitter */
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.fa-medium:hover {
+    background: #66cdaa;
+    color: white;
+}
+
+
+.fa-instagram:hover {
+    background: #C5092C;
+    color: white;
+}
+
+.foot1{
+    background: white;
+}

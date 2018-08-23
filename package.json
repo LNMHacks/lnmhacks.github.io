@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "live-server public"
+    "server": "live-server public"
   },
   "repository": {
     "type": "git",
