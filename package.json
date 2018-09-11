@@ -1,0 +1,10 @@
+{
+  "name": "LNMHacks-2.0",
+  "version": "0.0.1",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "server": "live-server"
+  }
+}
