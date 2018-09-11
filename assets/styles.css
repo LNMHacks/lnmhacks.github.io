@@ -200,7 +200,7 @@ nav {
   height: 600px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/website (1).png') center 30% no-repeat;
+  background: url('../images/website.png') center 30% no-repeat;
   background-size: cover;
 }
 
@@ -208,7 +208,7 @@ nav {
   font-family: 'Titillium Web', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
   color:#f44645;
-  
+
   font-weight: 500;
 }
 
@@ -417,7 +417,7 @@ nav {
 }
 
 .lnmhacks-customized-section-text {
-  
+
   margin-left: auto;
   margin-right:auto;
   padding: 80px 16px 0 16px;
@@ -573,7 +573,7 @@ nav {
     display: none !important;
     margin-top: -2%;
   }
-  
+
   .register-cta{
     display:none !important;
   }
@@ -593,7 +593,7 @@ nav {
   position: fixed;
   display: block !important;
   z-index: 1100;
-  
+
   bottom: 0 !important;
   width:100%;
   height: 2em;
@@ -693,8 +693,8 @@ nav {
 
 .material-button{
   margin-top: 4em;
-  padding:20px 20px; 
-  background-color: #4285f4; 
+  padding:20px 20px;
+  background-color: #4285f4;
   font-size:18px;
   color: #fff !important;
   box-shadow: none;
@@ -935,13 +935,13 @@ nav {
 
 ::-webkit-scrollbar-track
 {
-  
+
   background-color: #fafafa;
 }
 
 ::-webkit-scrollbar-thumb
 {
-  background-color: #3b3b3b; 
+  background-color: #3b3b3b;
 
 }
 
@@ -961,7 +961,7 @@ body::-webkit-scrollbar
 
 body::-webkit-scrollbar-thumb
 {
-  background-color: #F90; 
+  background-color: #F90;
   background-image: -webkit-linear-gradient(45deg,
                                             rgba(255, 255, 255, .2) 25%,
                         transparent 25%,
@@ -999,15 +999,15 @@ body::-webkit-scrollbar-thumb
         {
             position:relative;
             margin:8px auto 9px;
-            
+
             color:#272737;
         }
         .center > h1
         {
-            
+
             font-size: 100px;
         }
-        
+
 
 
 /*=====  End of FAQ  ======*/
@@ -1105,7 +1105,7 @@ div#js-clock {
   }
 }
 @media (max-width: 479px) {
-  
+
 
   .box {
     font-size: 10px;
@@ -1361,11 +1361,11 @@ div#js-clock {
     line-height: 62px !important;
     font-size: 45px !important;
   }
-  
+
 }
 
 @media (max-width: 479px) {
-  
+
   .box-min {
     font-size: 10px !important;
   }
@@ -1445,22 +1445,22 @@ div#js-clock {
 
   @media (max-width:767px){
     #js-clock-min {
-    
+
     display: flex !important;
     margin-bottom: 1px!important;
     margin-top: 1.5% !important;
-    
+
 
     font-family: 'Dosis', sans-serif !important;
 
   }
 
   .box-min {
-    
+
     margin: 0 4px !important;
     text-align: center !important;
     text-transform: uppercase !important;
-    
+
     border: none !important;
   }
 
@@ -1506,22 +1506,22 @@ div#js-clock {
 
 
     #js-clock-min {
-    
+
     display: flex !important;
     margin-bottom: 1px!important;
     margin-top: 1.5% !important;
-    
+
 
     font-family: 'Dosis', sans-serif !important;
 
   }
 
   .box-min {
-    
+
     margin: 0 4px !important;
     text-align: center !important;
     text-transform: uppercase !important;
-    
+
     border: none !important;
   }
 
@@ -1567,7 +1567,7 @@ div#js-clock {
       line-height: 50px;
       font-size: 36px;
     }
-      
+
       .cd--numbers-min {
   font-weight: bold !important;
   font-size: 3.5em !important;
@@ -1578,22 +1578,22 @@ div#js-clock {
 
   @media (max-width:375px){
     #js-clock-min {
-    
+
     display: flex !important;
     margin-bottom: 1px!important;
     margin-top: 1.5% !important;
-    
+
 
     font-family: 'Dosis', sans-serif !important;
 
   }
 
   .box-min {
-    
+
     margin: 0 4px !important;
     text-align: center !important;
     text-transform: uppercase !important;
-    
+
     border: none !important;
   }
 
@@ -1608,10 +1608,10 @@ div#js-clock {
       position: relative !important;
       height: 500px !important;
       width: auto !important;
-      
+
       background-color: #f3f3f3 !important;
-       background: url('images/MOBILE VIEW (1).png') right   0%  no-repeat !important; 
-       
+       background: url('images/MOBILE VIEW (1).png') right   0%  no-repeat !important;
+
       background-size: 280px !important;
 
     }
@@ -1659,22 +1659,22 @@ div#js-clock {
       font-size: 3vh !important;
     }
     #js-clock-min {
-    
+
     display: flex !important;
     margin-bottom: 1px!important;
     margin-top: 1.5% !important;
-    
+
 
     font-family: 'Dosis', sans-serif !important;
 
   }
 
   .box-min {
-    
+
     margin: 0 4px !important;
     text-align: center !important;
     text-transform: uppercase !important;
-    
+
     border: none !important;
   }
 
@@ -1689,10 +1689,10 @@ div#js-clock {
       position: relative !important;
       height: 450px !important;
       width: auto !important;
-      
+
       background-color: #f3f3f3 !important;
-       background: url('images/MOBILE VIEW (1).png') right   0.5%  no-repeat !important; 
-       
+       background: url('images/MOBILE VIEW (1).png') right   0.5%  no-repeat !important;
+
       background-size: 200px !important;
 
     }
@@ -1732,22 +1732,22 @@ div#js-clock {
 
   @media (max-width:360px){
     #js-clock-min {
-    
+
     display: flex !important;
     margin-bottom: 1px!important;
     margin-top: 1.5% !important;
-    
+
 
     font-family: 'Dosis', sans-serif !important;
 
   }
 
   .box-min {
-    
+
     margin: 0 4px !important;
     text-align: center !important;
     text-transform: uppercase !important;
-    
+
     border: none !important;
   }
 
@@ -1790,29 +1790,29 @@ div#js-clock {
   padding: 0.01em !important;
   text-shadow: 0 2px 5px rgba(0,0,0,0.3) !important;
     }
-    
+
 
   }
 
 
 @media (max-width:320px){
     #js-clock-min {
-    
+
     display: flex !important;
     margin-bottom: 1px!important;
     margin-top: 1.5% !important;
-    
+
 
     font-family: 'Dosis', sans-serif !important;
 
   }
 
   .box-min {
-    
+
     margin: 0 4px !important;
     text-align: center !important;
     text-transform: uppercase !important;
-    
+
     border: none !important;
   }
 
@@ -1876,4 +1876,3 @@ div#js-clock {
     display: none !important;
   }
 }
-
