@@ -1,5 +1,5 @@
 # lnmhacks
 front end of lnmhacks 2017
-[Visit Page](file:///home/canter_nawab/Dev/lnmhacks.github.io/index.html)
+[Visit Page](http://lnmhacks.com/)
 
 ![Image](LNMHacks-3.0.png)
