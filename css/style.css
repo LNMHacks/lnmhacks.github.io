@@ -317,7 +317,7 @@ h6 {
     border-radius: 50px;
     border: 2px solid #f82249;
     transition: all ease-in-out 0.3s;
-    font-weight: 500;
+    /* font-weight: 500; */
     margin-left: 8px;
     margin-top: 2px;
     line-height: 1;
@@ -326,6 +326,7 @@ h6 {
 
 .nav-menu li.buy-tickets a:hover {
     background: none;
+    color: black !important
 }
 
 .nav-menu li.buy-tickets:hover a:before,
@@ -483,11 +484,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
     width: 100%;
     height: 100vh;
-    /* background: url(../img/intro-bg.png) top center; */
+    /* background: url(../img/DateReveal.png) top center; */
+    background-attachment: scroll !important;
     background-size: cover;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     overflow: hidden;
     position: relative;
+    background-repeat:no-repeat;
+/* background-size:contain; */
+background-position:center;
 }
 
 #intro:before {
@@ -520,7 +525,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
-    padding: 0 15px;
+    /* padding: 0 15px; */
 }
 
 #intro h1 {
@@ -781,7 +786,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers-details .details .social a {
     background: #e9edfb;
-    color: #112363;
+    /* color: #112363; */
     line-height: 1;
     display: inline-block;
     text-align: center;
@@ -1413,33 +1418,33 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*--------------------------------------------------------------
-# Footer
+# 
 --------------------------------------------------------------*/
 
 #footer {
-    background: #101522;
-    padding: 0 0 25px 0;
-    color: #eee;
-    font-size: 14px;
+    /* background: #101522 !important; */
+    padding: 0 0 25px 0 !important;
+    color: #eee !important;
+    font-size: 14px !important;
 }
 
 #footer .footer-top {
-    background: #040919;
-    padding: 60px 0 30px 0;
+    /* background: #040919 !important; */
+    padding: 60px 0 30px 0 !important;
 }
 
 #footer .footer-top .footer-info {
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
 }
 
 #footer .footer-top .footer-info h3 {
-    font-size: 26px;
-    margin: 0 0 20px 0;
-    padding: 2px 0 2px 0;
-    line-height: 1;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    color: #fff;
+    font-size: 26px !important;
+    margin: 0 0 20px 0 !important;
+    padding: 2px 0 2px 0 !important;
+    line-height: 1 !important;
+    font-family: "Raleway", sans-serif !important;
+    font-weight: 700 !important;
+    color: #fff !important;
 }
 
 #footer .footer-top .footer-info img {
@@ -1456,22 +1461,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a {
-    font-size: 18px;
+    font-size: 30px;
     display: inline-block;
-    background: #222636;
+    /* background: #222636; */
     color: #eee;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
     border-radius: 50%;
     text-align: center;
-    width: 36px;
-    height: 36px;
+    width: 45px;
+    height: 45px;
     transition: 0.3s;
 }
 
 #footer .footer-top .social-links a:hover {
-    background: #f82249;
+    background: #000000;
     color: #fff;
 }
 
@@ -1583,6 +1588,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         border-left: 1px solid #ddd;
         border-right: 1px solid #ddd;
     }
+  
 }
 
 @media (min-width: 991px) {
@@ -1680,5 +1686,63 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .head {
     width: 100% !important;
-    margin-top: -16% !important
+    margin-top: -4% !important;
+    height: 101vh;
+}
+@media(max-width:1024px) and (min-width:768px){
+    .head{
+        height: 104vh;
+    }
+}
+.social-links{
+    text-align: center !important
+}
+.copyright{
+    color: #000 !important
+}
+
+
+
+
+/* .back{ */
+/* background-color: red !important; */
+    /* background: url('../img/DateReveal.png') !important; */
+/* } */
+/* */
+
+.twitter{
+    background: #00ACEE !important;
+    color: #fff !important;
+}
+.fa-twitter:hover{
+    color: #00ACEE;
+
+}
+.twitter:hover{
+   background: transparent !important;
+    color: #fff !important;
+}
+.facebook{
+    background: #3b5998 !important;
+    color: #fff !important;
+}
+.fa-facebook:hover{
+    color: #3b5998;
+
+}
+.facebook:hover{
+    background: transparent !important;
+    color: #fff !important;
+
+}
+.linkedin{
+    background: #0077B5 !important;
+    color: #fff !important;
+}
+.fa-linkedin:hover{
+    color: #0077B5 !important
+}
+.linkedin:hover{
+    background: transparent !important;
+    color: #fff !important;
 }
