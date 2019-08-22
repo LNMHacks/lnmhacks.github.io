@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="LNMHacks is LNMIIT's all student run hackathon. The perfect event to meet fellow developers , designers and
+        ideators. Join the #Hacksquad on 3-4 November 2018" name="description">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport">
+    <meta name="keywords" content="hackathon, india, college, hack, fest, Jaipur, lnmiit,lnmhack, lnmhacks , lnmiit hackathon,
+        mlh, india, rajasthan, best hackathons, student hackathons, facebook developerend circle, github, gitlab, hackerearth, hackathons in india"/>
+    <meta name="author" content="LNMHacks"/>
+
+    <!-- Favicon Here -->
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="LNMHacks">
+    <meta itemprop="description"
+          content="LNMHacks 2018 : Participate in India's one of the biggest hackathon run by students">
+    <meta itemprop="image" content="image/twitter.jpg">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@lnmhacks">
+    <meta name="twitter:title" content="LNMHacks">
+    <meta name="twitter:description"
+          content="LNMHacks 2018 : Participate in one of India's biggest hackathon run by students">
+    <meta name="twitter:creator" content="@lnmhacks">
+
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="images/twitter.jpg">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="LNMHacks 2018"/>
+    <meta property="og:type" content="Website"/>
+    <meta property="og:url" content="http://www.lnmhacks.com"/>
+    <meta property="og:image" content="image/facebook.jpg"/>
+    <meta property="og:description"
+          content="LNMHacks 2018 : Participate in one of India's biggest hackathon run by students">
+    <meta property="og:site_name" content="LNMHacks 2018"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56286897-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-56286897-5');
+    </script>
+
+
+    <!-- Page styles -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/pk.css">
+    <link rel="stylesheet" type="text/css" href="assets/timer.css">
+    <link rel="stylesheet" type="text/css" href="assets/sponsor.css">
+    <link rel="stylesheet" type="text/css" href="assets/cards.css">
+    <link rel='stylesheet' type="text/css" href='assets/formStyle.css'>
+    <link rel='stylesheet' type="text/css" href='assets/video.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <title>LNMHacks 2018</title>
+    <style>
+    .loader {
+      border: 8px solid whitesmoke;
+      border-radius: 50%;
+      border-top: 8px solid rgb(3, 11, 27);
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      -webkit-animation: spin 2s linear infinite; /* Safari */
+      animation: spin 2s linear infinite;
+    }
+
+    #loader img {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 70px;
+      height: 70px;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    </style>
+</head>
+
+<body>
+<div id="loader">
+  <img src="./images/logo.png" />
+  <div class="loader"></div>
+</div>
+<div class="wrapper" id="main-content" style="display:none;">
+  <div class="lnmhacks-footer__mobile">
+      <a class="lnmhacks-link mdl-typography==font-light material-button material-button__dark mobile-link"
+          style="bottom:0px !Important; position:fixed; z-index:1100; width:100%; text-align:center; padding:0px; padding-top:20px; padding-bottom:20px;">Registrations
+          Closed!</a>
+  </div>
+
+  <!--=====================================
+               NAVIGATION
+  =====================================-->
+  <nav class="navbar navbar-expand-md" id="top">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#"><img class="lnmhacks-logo-image" src="images/lnmhacks-02.png"></a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="fa fa-bars" style="color: #0015a1; border: 1px solid #0015a1;padding: 10px; border-radius: 20%"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a style="text-decoration: none;" data-scroll="" href="#footer">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                  <a style="text-decoration: none;" data-scroll="" href="#tracks">TRACKS</a>
+              </li>
+              <li class="nav-item">
+                  <a style="text-decoration: none;" data-scroll="" href="https://lnmhacks3.hackerearth.com/sprints/lnmhacks-30/faq/#faq"
+                     target="_" >FAQ</a>
+              </li>
+              <li class="nav-item">
+                  <a style="text-decoration: none;" data-scroll="" href="#gallery">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                  <a style="text-decoration: none;" data-scroll=""
+                     href="https://drive.google.com/file/d/1y0aVujYrWTBxFGpDO6gc3_VwjcoBQO1V/view?usp=sharing" target="_">SPONSOR
+                      US</a>
+              </li>
+              <li class="nav-item">
+                  <a style="text-decoration: none;" data-scroll="" href="#contact">CONTACT
+                      US</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <!--=====================================
+                NAVIGATION
+  =====================================-->
+
+  <div class="timer glow">
+      <div class="cl">
+          <div id="js-clock">
+              <div class="circle">
+                  <div class="box"><span id="js-clock-days">00</span><br/>Days</div>
+              </div>
+              <div class="circle">
+                  <div class="box"><span id="js-clock-hours">00</span><br/>Hours</div>
+              </div>
+              <div class="circle">
+                  <div class="box"><span id="js-clock-minutes">00</span><br/>Mins</div>
+              </div>
+              <div class="circle">
+                  <div class="box"><span id="js-clock-seconds">00</span><br/>Sec</div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="lnmhacks-content mdl-layout__content">
+      <a id="top" class="smoothScroll"></a>
+      <div class="lnmhacks-be-together-section ">
+          <div>
+              <img class="lnmhack_3" src="images/lhlogo.png" style="width: 600px;margin-left: -50px;">
+          </div>
+	  
+	       
+	      
+          <div class='content' style="">
+              <div class='visible'>
+                  <p style="color: black; opacity: 1;"><i>Join the</i></p>
+                  <ul>
+                      <li><i>Developers</i></li>
+                      <li><i>Designers</i></li>
+                      <li><i>Thinkers</i></li>
+                      <li><i>#HACKSQUAD</i></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="logo-font lnmhacks-sub-slogan scrollr-0 dat"
+               style="margin-left:15% !important;font-family: 'Titillium Web', sans-serif; font-weight:light; color:#282045;">
+              November 3-4 || LNMIIT, Jaipur
+          </div>
+          <div class="cl-min">
+                          <div id="js-clock-min">
+                              <div class="box-min"><span id="js-clock-min-days">00</span>Days</div>
+                              <div class="box-min">
+                                  <div class="cd--numbers-min">:</div>
+                                </div>
+                              <div class="box-min"><span id="js-clock-min-hours">00</span>Hours</div>
+                              <div class="box-min">
+                                  <div class="cd--numbers-min">:</div>
+                                </div>
+                              <div class="box-min"><span id="js-clock-min-minutes">00</span>Minutes</div>
+                              <div class="box-min">
+                                  <div class="cd--numbers-min">:</div>
+                                </div>
+                              <div class="box-min"><span id="js-clock-min-seconds">00</span>Seconds</div>
+                            </div>
+          </div>
+          <div  class="logo-font reg" style="color:#2a6ea3;margin-top:3%; margin-left:19% !important;">
+              <a>
+                  <button type="button" class="btn btn-primary btn-lg mdl-button"
+                          style="cursor:pointer;background-color: #0015a1;padding: 12px 25px; border-radius: 25px;" ><span
+                          style="font-size: 1.11em;" aria-disabled="true">Registrations Closed!</span></button>
+              </a>
+          </div>
+      </div>
+	   <!--=====================================
+                   powered by
+      =====================================-->
+      <div class="lnmhacks-customized-section smoothScroll" style="margin-bottom:0px; background:#F5F5F5;">
+          <div class="lnmhacks-sponsors-section-image">
+              <div class="lnmhacks-customized-section-text">
+                 <div class="pk-light-font pk-text-style head-text" style="margin-bottom: 5px;">
+                     Powered By
+                  </div>
+                  
+
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-md-5" >
+                        	  <a href="https://www.facebook.com/groups/DevCJaipur/"  target="_blank"> 
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/fbdev1.png" style="z-index: 3px;padding-top: 0px;"
+                                       width="100%" height="100%">                              
+                          </div>
+                        </a>
+                      </div>
+
+                      
+
+
+
+                  
+                  </div>
+                </div>
+              </div>
+</div>
+
+
+
+      <!--=====================================
+                   Tracks
+      =====================================-->
+      <div class="" >
+          <div class="lnmhacks-wear-band"  style="background-color: #F5F5F5;">
+              <div class="lnmhacks-wear-band-text">
+                  <div class="pk-light-font pk-text-style head-text" id="tracks" style="margin-bottom: 40px;">
+                      Tracks
+                  </div>
+
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-sm-2 onHover">
+                          <img alt="General" border="0" src="images/tracks/General.png" style="overflow: hidden" width="100">
+                      </div>
+                  </div>
+		  <div class="row align-items-center justify-content-center">
+                      <div class="col-sm-2 onHover">
+                          <img alt="Internet of Things" border="0" src="images/tracks/iot.png" style="overflow: hidden" width="175">
+                      </div>
+                      <div class="col-sm-2 onHover">
+                          <img alt="FinTech" border="0" src="images/tracks/fintech.png" style="overflow: hidden" width="175">
+                      </div>
+                      <div class="col-sm-2 onHover">
+                          <img alt="Bloack-Chain" border="0" src="images/tracks/bc.png" width="175">
+                      </div>
+                      <div class="col-sm-2 onHover">
+                          <img alt="Machine Learning" border="0" src="images/tracks/ml.png" width="175">
+                      </div>
+                      <div class="col-sm-2 onHover">
+                          <img alt="Computer Vision" border="0" src="images/tracks/cv.png" width="175">
+                      </div>
+                      <div class="col-sm-2 onHover">
+                          <img alt="End Tech" border="0" src="images/tracks/edtech.png" width="175">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--=====================================
+                   END OF Tracks
+      =====================================-->
+
+	
+	<div class="lnmhacks-customized-section smoothScroll" style="margin-bottom:0px;">
+          <div class="lnmhacks-sponsors-section-image">
+              <div class="lnmhacks-customized-section-text">
+                  <div class="pk-light-font pk-text-style head-text" style="margin-bottom: 5px;">
+                     Timeline
+                  </div>
+                  
+
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-md-5" >
+                       
+                              <div class="front image-fluid">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/timeline.png" style="z-index: 3px;padding-bottom: 40px;"
+                                       width="100%" height="100%">                              
+                          </div>
+                      </div>
+
+                      
+
+
+
+                  
+                  </div>
+                </div>
+              </div>
+</div>
+
+      <!--=====================================
+                    Custom Section
+      =====================================-->
+      <div class="video-container" style="">
+        <video preload="non" poster="images/lnmiit.jpg" autoplay="true" loop muted>
+            <source src="lnm12.mp4" type="video/mp4">
+        </video>
+        <div class="video-text">
+            <div class="container">
+
+                <p class="pk-light-font pk-text-style te animated fadeIn te" style="position:relative; margin:0; text-align: center;background: transparent;">
+
+
+                    LNMHacks is a theme-based 24-hour hackathon based in the LNM Institute of Information
+                    Technology, Jaipur with various tracks inline with the trends of bleeding edge technologies
+                    and software development. Into its third iteration, LNMHacks also conducts a Designation,
+                    parallel with the Hackathon, for the designers. Hack away!
+
+                </p>
+            </div>
+        </div>
+    </div>
+      <!--<div class="video-container">-->
+          <!--<video preload="non" poster="images/lnmiit.jpg" autoplay="true" loop muted>-->
+              <!--<source src="lnm.mp4" type="video/mp4">-->
+          <!--</video>-->
+          <!--<div class="video-text">-->
+              <!--<div class="container">-->
+                  <!--<p class="pk-light-font pk-text-style" style="margin: auto 0;">-->
+                      <!--LNMHacks is a theme-based 24-hour hackathon based in the LNM Institute of Information-->
+                      <!--Technology, Jaipur with various tracks inline with the trends of bleeding edge technologies-->
+                      <!--and software development. Into its third iteration, LNMHacks also conducts a Designation,-->
+                      <!--parallel with the Hackathon, for the designers. Our demographic mainly includes B.Tech-->
+                      <!--students pursuing their studies from a recognized Indian institute. Workshops on various-->
+                      <!--technologies along with several pre-events are conducted to get the participants calibrated-->
+                      <!--with the competition. A platform for everyone to show their creativity and skills, LNMHacks-->
+                      <!--felicitates the top teams from both the events and awesome swags from our wonderful-->
+                      <!--sponsors. Hack away!-->
+                  <!--</p>-->
+              <!--</div>-->
+          <!--</div>-->
+      <!--</div>-->
+      <!-- <div id="about" class="lnmhacks-customized-section smoothScroll">
+          <div class="lnmhacks-customized-section-image">
+              <div class="lnmhacks-customized-section-text">
+                  <div class="pk-light-font head-text" style="color: #fff; font-weight: bold;">
+                      Make Things and Break Things
+                  </div>
+                  <p class="pk-light-font base-text pk-text-style" style="color: #fff; opacity:1;">
+                      Whether a web app or a mobile app or just some random thought that could possibly solve a real world
+                      problem , we're excited to see what you make and how you make. You can create the next big tech
+                      thing in the world. The winners will have a chance to become a part of the
+                      <span style="font-family:'Tillitium',sans-serif; color:#f44645;">
+                                      <i>#HACKSQUAD</i>
+                                  </span>
+                      <br>
+                      <br>
+                  </p>
+                  <p class="pk-light-font base-text pk-text-style"
+                     style="margin-top:180px; color: #fff; opacity:1; font-size:1.0em;">
+                  </p>
+                  <br>
+                  <br>
+              </div>
+          </div>
+      </div> -->
+
+
+      <!--=====================================
+                   END of Custom Section
+      =====================================-->
+<div class="lnmhacks-customized-section smoothScroll" style="margin-bottom:0px;">
+          <div class="lnmhacks-sponsors-section-image">
+              <div class="lnmhacks-customized-section-text">
+                  <div class="pk-light-font pk-text-style head-text" style="margin-bottom: 5px;">
+                     Meetups 
+                  </div>
+
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-md-3" >
+                        <a href="https://www.facebook.com/events/273788179925523/" target="_blank">
+                              <div class="front image-fluid">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/gitkraken.png" style="z-index: 3px;padding-top: 0px;"
+                                       width="65%" height="100%">                              
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="col-md-3" >
+                        <a href="https://events.docker.com/events/details/docker-jaipur-presents-docker-at-lnmhacks-30#/" target="_blank">
+                              <div class="front image-fluid">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/docker.png" style="z-index: 3px;padding-top: 0px;"
+                                       width="70%" height="100%">                              
+                          </div>
+                        </a>
+                      </div>
+
+
+
+
+                  
+                  </div>
+                </div>
+              </div>
+</div>
+
+<!-- speakers     
+------------------------------------------------------------------------------------------------------------->
+
+
+<div class="lnmhacks-customized-section smoothScroll" style="margin-bottom:0px;">
+          <div class="lnmhacks-sponsors-section-image"  style="background-color: #F5F5F5;">
+              <div class="lnmhacks-customized-section-text">
+                  <div class="pk-light-font pk-text-style head-text" style="margin-bottom: 5px;">
+                     Speakers - Mentors - Judges
+                  </div>
+
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-md-3" >
+                        <a href="http://linkedin.com/in/ashutoshh" target="_blank">
+                              <div class="front image-fluid">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/DSC_0237-2.jpg" style="z-index: 3px;padding-top: 0px;border-radius: 50%;"
+                                       width="80%" height="100%">                              
+                          </div>
+                        </a>
+			<div>
+			<p style="font: 30px Georgia, serif;color: black;">Ashutoshh Singh</p>
+			<p style="font: 20px Georgia, serif;padding-top: 0px;color: darkslateblue;">CHIEF TECHNOLOGY OFFICER - ADHOC NETWORKS</p>
+			</div>
+                      </div>
+		  
+
+                      <div class="col-md-3" >
+                        <a href="https://www.linkedin.com/in/abhishek87/" target="_blank">
+                              <div class="front image-fluid">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/abhishek-photo.jpg" style="z-index: 3px;padding-top: 0px;border-radius: 50%;"
+                                       width="80%" height="100%">                              
+                              </div>
+                        </a>
+			<div>
+			<p style="font: 30px Georgia, serif;color: black;">Abhishek Rathore</p>
+			<p style="font: 20px Georgia, serif;padding-top: 0px;color: darkslateblue;">CO-FOUNDER <br>YOUSTART LABS</p>
+			</div>
+                      </div>
+		        
+
+			<div class="col-md-3" >
+                        <a href="https://www.linkedin.com/in/rajat-jain-0910526b/" target="_blank">
+                              <div class="front image-fluid">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/RJ_01.JPG" style="z-index: 3px;padding-top: 0px;border-radius: 50%;"
+                                       width="80%" height="100%">                              
+                              </div>
+                        </a>
+			<div>
+			<p style="font: 30px Georgia, serif;color: black;">Rajat Jain</p>
+			<p style="font: 20px Georgia, serif;padding-top: 0px;color: darkslateblue;">PROJECT MANAGER<br>ELUCIDATA</p>
+			</div>
+
+                      </div>
+                  
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+<!--=====================================
+                               Sponsor of 3.0
+      =====================================-->
+      <div class="lnmhacks-customized-section smoothScroll" style="margin-bottom:0px;">
+          <div class="lnmhacks-sponsors-section-image">
+              <div class="lnmhacks-customized-section-text">
+                  <div class="pk-light-font pk-text-style head-text" style="margin-bottom: 40px;">
+                     Sponsors
+                  </div>
+
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-md-3 col-sm-12 mx-auto" data-aos="fadeInDown">
+                        <a href="https://github.com/" target="_blank">
+
+                          <div class="container_card" style="width:230px;margin:auto;">
+
+                              <div class="front image-fluid" style="margin-top:10%;">
+                                  <img src="images/sponsors/github.png" style="z-index: 3px;padding-top: 50px;"
+                                       width="100%" height="100%">
+                                  <div class="inner">
+                                  </div>
+                              </div>
+
+                              <div class="back">
+                                  <div class="inner">
+                                      <h2>Title Sponsor</h2>
+                                  </div>
+                              </div>
+                          </div>
+                          </a>
+                      </div>
+                  </div>
+
+		  <!-- 2 cards here -->
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-md-3" data-aos="fade-up">
+                        <a href="https://www.hackerearth.com/" target="_blank">
+                          <div class="container_card" style="width:230px;margin:auto;">
+                              <div class="front">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/hackerearth.png" style="z-index: 3px;padding-top: 30px;"
+                                       width="100%" height="100%">
+                                  <div class="inner">
+                                  </div>
+                              </div>
+
+
+                              <div class="back">
+                                  <div class="inner">
+                                      <h2>Platform Sponsor</h2>
+                                  </div>
+                              </div>
+
+                          </div>
+                          </a>
+                      </div>
+
+                      <div class="col-md-3" data-aos="fade-up">
+                        <a href="http://bit.ly/LNMHChallenge" target="_blank">
+                          <div class="container_card" style="width:230px;margin:auto;">
+                              <div class="front">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/challengerocket.jpg" style="z-index: 3px;padding-top: 30px;"
+                                       width="100%" height="100%">
+                                  <div class="inner">
+                                  </div>
+                              </div>
+
+
+                              <div class="back">
+                                  <div class="inner">
+                                      <h2>General Sponsor</h2>
+                                  </div>
+                              </div>
+
+                          </div>
+                          </a>
+                      </div>
+</div>
+
+
+                  <!-- 2 cards here -->
+                  <div class="row align-items-center justify-content-center">
+
+                      <div class="col-md-3" data-aos="fade-up">
+                        <a href="https://sketchapp.com/press/" target="_blank">
+                          <div class="container_card" style="width:230px;margin:auto;">
+                              <div class="front">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/sketch.png" style="z-index: 3px;padding-top: 50px;"
+                                       width="100%" height="100%">
+                                  <div class="inner">
+                                  </div>
+                              </div>
+
+
+                              <div class="back">
+                                  <div class="inner">
+                                      <h2>Design Partner</h2>
+                                  </div>
+                              </div>
+
+                          </div>
+                          </a>
+                      </div>
+                    
+                      
+                      
+                      <div class="col-md-3" data-aos="fade-up">
+                        <a href="https://temboo.com/" target="_blank">
+
+                          <div class="container_card" style="width:230px;margin:auto;">
+
+                              <div class="front image-fluid">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/temboo-logo.png" style="z-index: 3px;padding-top: 50px;" width="100%"
+                                       height="100%">
+                                  <div class="inner">
+                                  </div>
+                              </div>
+
+                              <div class="back">
+                                  <div class="inner">
+                                      <h2>Technology Partner</h2>
+                                  </div>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+
+
+                      
+                  </div>
+      
+                  
+                  <!-- 3 cards here -->
+
+                  
+
+                  <div class="row align-items-center justify-content-center">
+
+                      <div class="col-md-3" data-aos="fade-up">
+                        <a href="https://www.jetbrains.com/" target="_blank">
+
+                          <div class="container_card" style="width:230px;margin:auto;">
+
+                              <div class="front image-fluid">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/jetbrains.png" style="z-index: 3px;padding-top: 50px;"
+                                       width="100%" height="100%">
+                                  <div class="inner">
+                                  </div>
+                              </div>
+
+
+                              <div class="back">
+                                  <div class="inner">
+                                      <h2>IDE Partner</h2>
+                                  </div>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+
+
+                  
+                      <div class="col-md-3" data-aos="fade-up">
+                        <a href="https://hacksociety.tech/" target="_blank">
+
+                          <div class="container_card" style="width:230px;margin:auto;">
+
+                              <div class="front image-fluid">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/hackersociety.png" style="z-index: 3px;padding-top: 50px;"
+                                       width="100%" height="100%">
+                                  <div class="inner">
+                                  </div>
+                              </div>
+
+
+                              <div class="back">
+                                  <div class="inner">
+                                      <h2>Community Sponsor</h2>
+                                  </div>
+                              </div>
+                          </div>
+                        </a>
+                      </div>  
+
+                       <div class="col-md-4" data-aos="fade-up">
+                        <a href="https://www.bugsee.com/" target="_blank">
+                          <div class="container_card" style="width:230px;margin:auto;">
+                              <div class="front">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/bugsee1.png" style="z-index: 3px;padding-top: 70px;"
+                                       width="100%" height="100%">
+                                  <div class="inner">
+                                  </div>
+                              </div>
+
+
+                              <div class="back">
+                                  <div class="inner">
+                                      <h2>General Sponsor</h2>
+                                  </div>
+                              </div>
+
+                          </div>
+                          </a>
+                      </div>    
+
+                  </div>
+                  <!-- 3 cards here -->
+
+                  <div class="row align-items-center justify-content-center">
+                      <div class="col-md-3" data-aos="fade-up">
+                        <a href="https://www.wolfram.com/language/" target="_blank">
+                          <div class="container_card" style="width:230px;margin:auto;">
+                              <div class="front">
+                                  <p style="margin-top:20%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/Wolfram_Vector.png" style="z-index: 3px;padding-top: 70px;"
+                                       width="100%" height="100%">
+                                  <div class="inner">
+                                  </div>
+                              </div>
+
+
+                              <div class="back">
+                                  <div class="inner">
+                                      <h2>General Sponsor</h2>
+                                  </div>
+                              </div>
+
+                          </div>
+                          </a>
+                      </div>            
+
+                      <div class="col-md-3" data-aos="fade-up">
+                        <a href="https://www.hellointern.com/" target="_blank">
+                          <div class="container_card" style="width:230px;margin:auto;">
+                              <div class="front">
+                                  <p style="margin-top:20%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/hellointern.jpg" style="z-index: 3px;padding-top: 70px;"
+                                       width="100%" height="100%">
+                                  <div class="inner">
+                                  </div>
+                              </div>
+
+
+                              <div class="back">
+                                  <div class="inner">
+                                      <h2>General Sponsor</h2>
+                                  </div>
+                              </div>
+
+                          </div>
+                          </a>
+                      </div>                    
+		
+
+		      <div class="col-md-3" data-aos="fade-up">
+                        <a href="https://zebronics.com/" target="_blank">
+                          <div class="container_card" style="width:230px;margin:auto;">
+                              <div class="front">
+                                  <p style="margin-top:20%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/zebronics.jpg" style="z-index: 3px;padding-top: 30px;"
+                                       width="100%" height="100%">
+                                  <div class="inner">
+                                  </div>
+                              </div>
+
+
+                              <div class="back">
+                                  <div class="inner">
+                                      <h2>Multimedia Partner</h2>
+                                  </div>
+                              </div>
+
+                          </div>
+                          </a>
+                      </div>
+
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+
+      <!--=====================================
+                      End of Sponsor of 3.0
+          =====================================-->
+<!--=====================================
+                               Sponsor of 2.0
+                  =====================================-->
+
+      <!--=====================================
+                      End of Sponsor of 2.0
+          =====================================-->
+<div class="lnmhacks-customized-section smoothScroll" style="margin-bottom:0px;">
+          <div class="lnmhacks-sponsors-section-image"   style="background-color: #F5F5F5;">
+              <div class="lnmhacks-customized-section-text">
+                  <div class="pk-light-font pk-text-style head-text" style="margin-bottom: 40px;">
+                     Community Partners
+                  </div>
+
+                  <div class="row align-items-center justify-content-center 4 images">
+
+                      <div class="col-md-3" style="padding-bottom: 40px;">
+                        <a href="https://www.meetup.com/PyJaipur/" target="_blank">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/pyjaipur.png" style="z-index: 4px;padding-top: 0px;"
+                                       width="65%" height="65%">                              
+                        </a>
+                      </div>
+
+                      <div class="col-md-3" style="padding-bottom: 40px;">
+                        <a href="https://www.ieee.org/" target="_blank">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/IEEE_logo.png" style="z-index: 4px;padding-top: 0px;"
+                                       width="70%" height="70%"> 
+                        </a>
+                      </div>
+
+                      
+                      <div class="col-md-3" style="padding-bottom: 40px;">
+                        <a href="https://events.docker.com/events/details/docker-jaipur-presents-docker-at-lnmhacks-30#/" target="_blank">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/docker.png" style="z-index: 4px;padding-top: 0px;"
+                                       width="47%" height="47%">
+                        </a>
+                      </div>                  
+
+                      
+            
+                      <div class="col-md-3" style="padding-bottom: 40px;">
+                        <a href="https://www.ieee.org/membership/women-in-engineering.html" target="_blank">
+                                  <p style="margin-top:0%; color:darkslateblue"></p>
+                                  <img src="images/sponsors/wie.png" style="z-index: 4px;padding-top: 0px;"
+                                       width="55%" height="55%"> 
+                        </a>
+                      </div>
+                  </div>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+      <!--=====================================
+                  GALLERY SECTION
+      =====================================-->
+      <div class="lnmhacks-customized-section-text smoothScroll" style="margin-bottom: 120px;"  id="gallery">
+          <div class="pk-light-font pk-text-style head-text">
+              Gallery
+          </div>
+      </div>
+      <div class="row" >
+
+          <div class="col-sm-2">
+
+          </div>
+
+          <div id="carouselExampleIndicators" class="carousel slide col-sm-8" data-ride="carousel" style="margin-bottom:100px;"  >
+              <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              </ol>
+
+              <div class="carousel-inner" role="listbox" >
+                  <div class="carousel-item active">
+                      <img class="d-block img-fluid" src="images/gallery/1.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                      <img class="d-block img-fluid" src="images/gallery/2.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                      <img class="d-block img-fluid" src="images/gallery/3.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                      <img class="d-block img-fluid" src="images/gallery/4.jpg" alt="Fourth slide">
+                  </div>
+                  <div class="carousel-item">
+                      <img class="d-block img-fluid" src="images/gallery/5.jpg" alt="Fifth slide">
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+          </div>
+          <div class="col-sm-2">
+          </div>
+      </div>
+
+      <!--=====================================
+                  END OF GALLERY SECTION
+      =====================================-->
+
+
+      <!--=====================================
+              START OF TIME TABLE SECTION
+      =====================================-->
+
+
+
+      <!--=====================================
+              END OF TIME TABLE SECTION
+      =====================================-->
+
+      <div class="row" style="margin-top: 10vh;">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-4">
+              <section id="contact">
+                  <div class="pk-light-font pk-text-style head-text" style="text-align:left;margin-bottom: 3vh;">
+                      Contact Us
+                  </div>
+                  <div id="contactsubheader" data-aos="zoom-in-right" style="text-align: left;     font-size: 24px;
+      font-weight: 300;
+      letter-spacing: 1px; color: #0015a1">WE LOVE TO HEAR FROM
+                      YOU</div>
+                  <form class="cf  contact-form" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom">
+                      <div class="half left cf">
+                          <input class="small-input" type="text" id="input-name" placeholder="Name" required>
+                          <input class="small-input" pattern="^[\w\.=-]+@[\w\.-]+\.[\w]{2,3}$" type="email" id="input-email" placeholder="Email-Id [ex. john@doe.com]" required>
+                          <input class="small-input" type="text" id="input-subject" placeholder="Subject">
+                      </div>
+                      <div class="half right cf">
+                          <textarea class="big-input" name="message" type="text" id="input-message"
+                                    placeholder="Message" required></textarea>
+                      </div>
+                      <input type="submit" value="Submit" id="input-submit"
+                             style="cursor:pointer; background-color: #0015a1;padding: 12px 25px; border-radius: 25px; font-size: 15px">
+                  </form>
+              </section>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-5 map-col">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.9657584474435!2d75.92131131498468!3d26.93629998311734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDU2JzEwLjciTiA3NcKwNTUnMjQuNiJF!5e0!3m2!1sen!2sin!4v1535636740064"
+                      frameborder="0" style="width:100%;height: 100%;" allowfullscreen></iframe>
+          </div>
+      </div>
+
+      <div class="" style="margin: 0 auto;">
+          <div class="row details-row" style="margin-top: 5vh;">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-10">
+                  <div class="row">
+                      <div class="col-lg-4 col-md-4 contact-details">
+                          <div class="row">
+                              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                  <a href="tel:+91 7615000402"><i class="fas fa-phone icons"
+                                                                                       style="font-size: 5vh;"></i></a>
+                              </div>
+                              <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                  <p>
+                                      <a href="tel:+91 7615000402"  "><div class="pk-light-font pk-text-style head-text">
+                                          Phone</div></a>
+                                      <span class="contact-content">
+                                      Vivek K. Tiwari :
+                                      +91 7742081020
+                                      </span>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 contact-details">
+                          <div class="row">
+                              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                  <a href="mailto:registration@lnmhacks.com" ><i
+                                          class="fas fa-envelope icons" style="font-size: 5vh;"></i></a>
+                              </div>
+                              <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                  <p>
+                                      <a href="mailto:registration@lnmhacks.com" ><div
+                                              class="pk-light-font pk-text-style head-text" >Email Us</div></a>
+                                      <a href="mailto:registration@lnmhacks.com" class="contact-content">
+                                          registration@lnmhacks.com
+                                      </a>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 contact-details">
+                          <div class="row">
+                              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                  <a href="https://goo.gl/maps/5wNkk4FoFDy"><i
+                                          class="fas fa-map-marker icons" style="font-size: 5vh;"></i></a>
+                              </div>
+                              <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                  <p>
+                                      <a href="https://goo.gl/maps/5wNkk4FoFDy"><div
+                                              class="pk-light-font pk-text-style head-text">Location</div></a>
+                                      <span class="contact-content">
+                                      Rupa ki Nangal,Via-Jamdoli,<br> Jaipur, Rajasthan 302031
+                                      </span>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-1"></div>
+          </div>
+      </div>
+
+      <!--=====================================
+                  MAP SECTION
+      =====================================-->
+
+      <!--=====================================
+                  FOOTER SECTION
+      =====================================-->
+      <footer class="lnmhacks-footer mdl-mega-footer" id="footer">
+          <div class="lnmhacks-wear-band-text"
+               style="max-width:100%; margin-left:0;">
+              <div class="mdl-typography--display-2 mdl-typography--font-thin">
+                  Stay Updated through our social feed
+              </div>
+              <p class="mdl-typography--headline mdl-typography--font-thin">
+                  From behind the scenes to our latest additions , we cover it all.
+              </p>
+          </div>
+          <div class="mdl-mega-footer--top-section">
+              <div class="mdl-grid" align="center">
+                  <div class="mdl-cell mdl-cell--4-col">
+
+                  </div>
+                  <div class="mdl-cell mdl-cell--4-col">
+                      <a class="mdl-mega-footer--social-btn" href="https://www.facebook.com/lnmhacks/"
+                         style="color: #0015a1 !important;">
+                          <i class="fa fa-facebook fa-2x"></i></a> &nbsp;
+                      <a class="mdl-mega-footer--social-btn" href="https://twitter.com/lnmhacks"
+                         style="color: #0015a1 !important;">
+                          <i class="fa fa-twitter fa-2x"></i></a> &nbsp;
+                      <a class="mdl-mega-footer--social-btn" href="https://medium.com/@lnmhacks"
+                         style="color: #0015a1 !important;">
+                          <i class="fa fa-medium fa-2x"></i></a>
+                      <a class="mdl-mega-footer--social-btn" href="https://www.linkedin.com/company/lnm-hacks/"
+                      style="color: #0015a1 !important;">
+                      <i class="fa fa-linkedin fa-2x"></i></a>
+                  </div>
+              </div>
+
+          </div>
+          <div class="mdl-mega-footer--middle-section" style= "text-align:center;">
+              <p class="pk-light-font">© 2018 LNMHacks.</p>
+              <p class="pk-light-font">More information coming soon. Stay updated through our social channels. Join the #hacksquad.</p>
+          </div>
+      </footer>
+      <div class="mdl-mega-footer--right-section" style="position: fixed; right: 1%; bottom: 10%;z-index: 5;">
+          <a class="pk-light-font" href="#top"><i class="material-icons" style="font-size: 48px ;border-radius: 50%; background-color: #0015a1; color: #fff; box-shadow: 0 3px 5px #757575;">expand_less</i></a>
+      </div>
+
+      <!--=====================================
+                  END OF FOOTER SECTION
+      =====================================-->
+
+      <!--=====================================
+                  END OF FOOTER SECTION
+      =====================================-->
+  </div>
+  </div>
+</div>
+<script type="text/javascript">
+     function js_m() {
+
+          var deadline = '2018-11-3 11:00';
+
+          function pad(num, size) {
+              var s = "0" + num;
+              return s.substr(s.length-size);
+          }
+
+          function getTimeRemaining(endtime) {
+            var t = Date.parse(endtime) - Date.parse(new Date()),
+                seconds = Math.floor((t / 1000) % 60),
+                minutes = Math.floor((t / 1000 / 60) % 60),
+                hours = Math.floor((t / (1000 * 60 * 60)) % 24),
+                days = Math.floor(t / (1000 * 60 * 60 * 24));
+
+            return {
+              'total': t,
+              'days': days,
+              'hours': hours,
+              'minutes': minutes,
+              'seconds': seconds
+            };
+          }
+
+          function clock(id, endtime) {
+            var days = document.getElementById(id + '-days')
+                hours = document.getElementById(id + '-hours'),
+                minutes = document.getElementById(id + '-minutes'),
+                seconds = document.getElementById(id + '-seconds');
+
+                console.log(days, hours, minutes, seconds);
+
+            var timeinterval = setInterval(function() {
+              var t = getTimeRemaining(endtime);
+
+              if (t.total <= 0){
+                clearInterval(timeinterval);
+              } else {
+          days.innerHTML = pad(t.days, 2);
+          document.getElementById(id + '-hours').innerHTML = pad(t.hours, 2);
+          document.getElementById(id + '-minutes').innerHTML = pad(t.minutes, 2);
+          document.getElementById(id + '-seconds').innerHTML = pad(t.seconds, 2);
+          }
+            }, 1000);
+          }
+
+          clock('js-clock-min', deadline);
+        }
+
+       js_m();
+       </script>
+       <script>
+
+
+
+   function js() {
+        var deadline = '2018-11-3 11:00';
+        function pad(num, size) {
+            var s = "0" + num;
+            return s.substr(s.length - size);
+        }
+        function getTimeRemaining(endtime) {
+            var t = Date.parse(endtime) - Date.parse(new Date()),
+                seconds = Math.floor((t / 1000) % 60),
+                minutes = Math.floor((t / 1000 / 60) % 60),
+                hours = Math.floor((t / (1000 * 60 * 60)) % 24),
+                days = Math.floor(t / (1000 * 60 * 60 * 24));
+            return {
+                'total': t,
+                'days': days,
+                'hours': hours,
+                'minutes': minutes,
+                'seconds': seconds
+            };
+        }
+        function clock(id, endtime) {
+            var days = document.getElementById(id + '-days')
+            hours = document.getElementById(id + '-hours'),
+                minutes = document.getElementById(id + '-minutes'),
+                seconds = document.getElementById(id + '-seconds');
+            var timeinterval = setInterval(function () {
+                var t = getTimeRemaining(endtime);
+                if (t.total <= 0) {
+                    clearInterval(timeinterval);
+                } else {
+                    days.innerHTML = pad(t.days, 2);
+                    hours.innerHTML = pad(t.hours, 2);
+                    minutes.innerHTML = pad(t.minutes, 2);
+                    seconds.innerHTML = pad(t.seconds, 2);
+                }
+            }, 1000);
+        }
+        clock('js-clock', deadline);
+    }
+
+
+   js();
+
+
+</script>
+<script src="https://code.getmdl.io/1.2.1/material.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script>
+  jQuery(document).ready(function(){
+    $( "#loader" ).delay(800).fadeOut(400, function(){
+      $( "#main-content" ).fadeIn(400);
+    });
+  });
+</script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+<script src="assets/scrollreveal.min.js" type="text/javascript"></script>
+<script src="assets/smooth-scroll.min.js" type="text/javascript"></script>
+<script src="assets/custom.js" type="text/javascript"></script>
+</body>
+</html>

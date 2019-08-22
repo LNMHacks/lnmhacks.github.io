@@ -1,0 +1,43 @@
+.timer{
+  position:fixed;
+  top: 15%;
+  left:-7%;
+  background:white;
+  width:8%;
+  height:70%;
+  z-index:10;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #757575;
+}
+.timer:hover {
+  left:0;
+}
+
+.circle {
+  padding:3px;
+  height: 70px;
+  width: 70px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  align-self: center;
+  box-shadow: 0px 0px 10px #757575;
+}
+
+.glow {
+  animation: glowing 6000ms infinite;
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 0px #757575; }
+  25% { box-shadow: 0 0 15px #757575; }
+  50% { box-shadow: 0 0 0px #757575; }
+  75% { box-shadow: 0 0 15px #757575; }
+  100% { box-shadow: 0 0 15px #757575; }
+  0% { box-shadow: 0 0 15px #757575; }
+}
+
+
+
