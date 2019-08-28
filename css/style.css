@@ -162,11 +162,12 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-    background: rgba(79, 75, 101, 0.5);
+    background: #fff;
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
     box-shadow: 0px 1px 10px #3b495d;
+    color: black !important
 }
 
 #header #logo h1 {
@@ -187,6 +188,10 @@ h6 {
 #header #logo h1 a,
 #header #logo h1 a:hover {
     color: #fff;
+}
+#header.header-scrolled,
+#header #logo h1 a{
+    color: black !important
 }
 
 #header #logo img {
@@ -276,7 +281,7 @@ h6 {
     padding: 8px;
     text-decoration: none;
     display: inline-block;
-    color: rgba(202, 206, 221, 0.8);
+    color: white;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -285,7 +290,7 @@ h6 {
 
 .nav-menu .menu-active a,
 .nav-menu a:hover {
-    color: #fff;
+    color: red;
 }
 
 .nav-menu>li {
@@ -385,7 +390,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-    color: #fff;
+    /* color: #fff; */
 }
 
 
@@ -675,17 +680,17 @@ background-position:center;
 --------------------------------------------------------------*/
 
 #about {
-    background: url("../img/about-bg.jpg");
+    /* background: url("../img/about-bg.jpg"); */
     background-size: cover;
     overflow: hidden;
     position: relative;
-    color: #fff;
+    color: #bdbfc7 !important;
     padding: 60px 0 40px 0;
 }
 
 #about:before {
     content: "";
-    background: rgba(13, 20, 41, 0.8);
+    background: rgb(246, 247, 253);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -697,7 +702,9 @@ background-position:center;
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #fff;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    
 }
 
 #about h3 {
@@ -705,13 +712,21 @@ background-position:center;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
-    color: #fff;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
 }
 
 #about p {
     font-size: 14px;
     margin-bottom: 20px;
-    color: #fff;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
 }
 
 
@@ -1621,7 +1636,7 @@ background-position:center;
 
 @media (max-width: 991px) {
     #header {
-        background: #111620;
+        background: #fff;
         height: 70px;
         padding: 15px 0;
         transition: all 0.5s;
@@ -1752,4 +1767,21 @@ background-position:center;
 .head{
     height: 50vh;
 }
+}
+
+#header.header-scrolled,
+#header.header-fixed {
+    background: #fff;
+    height: 70px;
+    padding: 15px 0;
+    transition: all 0.5s;
+    box-shadow: 0px 1px 10px #3b495d;
+    color: black !important
+}
+.header-scrolled .nav-menu a{
+    color: #000000 !important
+}
+
+.header-scrolled .nav-menu li.buy-tickets a {
+    color: white !important
 }
