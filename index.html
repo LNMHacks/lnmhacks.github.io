@@ -71,7 +71,8 @@
   ============================-->
     <section id="intro">
         <div class="intro-container wow fadeIn" style="">
-            <h1 class="mb-4 pb-0 "><img class="head" src="img/DateReveal.png"></h1>
+            <h1 class="mb-4 pb-0 "><img id="myImg" class="head" src="img/DateReveal.jpg">
+            <img id="myImg_1" class="head" src="img/datereveal-mob-02.jpg" ></h1>
             <!-- <p class="mb-4 pb-0 info">LNMIIT, JAIPUR</p>
 
             -->
@@ -469,7 +470,7 @@
 
                 <div class="section-header">
                     <h2>Event Venue</h2>
-                    <p>Event venue location info and gallery</p>
+                    <!-- <p>Event venue location info and gallery</p> -->
                 </div>
 
                 <div class="row no-gutters">
@@ -638,7 +639,7 @@
             <div class="container">
                 <div class="section-header">
                     <h2>Gallery</h2>
-                    <p>Check our gallery from the recent events</p>
+                    <!-- <p>Check our gallery from the recent events</p> -->
                 </div>
             </div>
 
@@ -651,6 +652,10 @@
                 <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.jpg" alt=""></a>
                 <a href="img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/7.jpg" alt=""></a>
                 <a href="img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/8.jpg" alt=""></a>
+                <a href="img/gallery/9.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/9.jpg" alt=""></a>
+                <a href="img/gallery/10.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/10.jpg" alt=""></a>
+                <a href="img/gallery/11.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/11.jpg" alt=""></a>
+                <a href="img/gallery/12.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/12.jpg" alt=""></a>
             </div>
 
         </section>
@@ -1143,30 +1148,15 @@
     <script src="contactform/contactform.js"></script>
 <script>
 
-$(document).ready(function () {
-    $(document).on("scroll", onScroll);
-    
-    //smoothscroll
-    $('a[href^="#"]').on('click', function (e) {
-        e.preventDefault();
-        $(document).off("scroll");
-        
-        $('a').each(function () {
-            $(this).removeClass('menu-active');
-        })
-        $(this).addClass('menu-active');
-      
-        var target = this.hash,
-            menu = target;
-        $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top+2
-        }, 500, 'swing', function () {
-            window.location.hash = target;
-            $(document).on("scroll", onScroll);
-        });
-    });
-});
+if(screen.width < 769){
+    document.getElementById("myImg").src = "img/datereveal-mob-01.jpg";
+
+
+}
+if(screen.width >= 769){
+var element = document.getElementById("myImg_1");
+element.parentNode.removeChild(element);
+}
 
 </script>
     <!-- Template Main Javascript File -->
