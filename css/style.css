@@ -1814,3 +1814,9 @@ font-weight: 550
       background-color: transparent;
       box-shadow: 0 4px 8px 0 #f82249, 0 6px 20px 0 #f82249;
   }
+  @media (max-width: 768px) {
+    .intro-container .btn {
+       
+        top: 50%;
+    }
+}
