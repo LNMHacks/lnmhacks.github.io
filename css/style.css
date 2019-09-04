@@ -332,7 +332,7 @@ h6 {
 
 .nav-menu li.buy-tickets a:hover {
     background: none;
-    color: black !important
+    /* color: black !important */
 }
 
 .nav-menu li.buy-tickets:hover a:before,
@@ -512,7 +512,7 @@ background-position:center;
 }
 
 #intro .intro-container {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     top: 90px;
@@ -1117,7 +1117,7 @@ background-position:center;
 }
 
 #supporters .supporter-logo {
-    padding: 30px;
+    /* padding: 30px; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1132,6 +1132,7 @@ background-position:center;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.5);
     height: 160px;
+    margin-bottom: 6% !important
 }
 
 #supporters .supporter-logo:hover img {
@@ -1703,8 +1704,8 @@ background-position:center;
 
 .head {
     width: 100% !important;
-    margin-top: -4% !important;
-    height: 101vh;
+    margin-top: -7% !important;
+    height: 105vh;
 }
 @media(max-width:1024px) and (min-width:768px){
     .head{
@@ -1785,3 +1786,31 @@ background-position:center;
 .header-scrolled .nav-menu li.buy-tickets a {
     color: white !important
 }
+.header-scrolled .nav-menu li.buy-tickets a:hover {
+    color: black !important
+}
+
+.spo_title{
+font-weight: 550
+}
+.intro-container .btn {
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f82249;
+    color: white;
+    font-size: 13px;
+    padding: 12px 24px;
+    border: 2px solid #f82249;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 550;
+    letter-spacing: 1.5px
+  }
+  .btn:hover{
+      background-color: transparent;
+      box-shadow: 0 4px 8px 0 #f82249, 0 6px 20px 0 #f82249;
+  }
