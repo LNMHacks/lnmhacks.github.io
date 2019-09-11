@@ -1808,7 +1808,8 @@ font-weight: 550
     border-radius: 50px;
     text-align: center;
     font-weight: 550;
-    letter-spacing: 1.5px
+    letter-spacing: 1.5px;
+    width: 10% !important
   }
   .btn:hover{
       background-color: transparent;
@@ -1817,6 +1818,7 @@ font-weight: 550
   @media (max-width: 768px) {
     .intro-container .btn {
        
-        top: 50%;
+        top: 60%;
+        width: 30% !important
     }
 }
