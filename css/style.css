@@ -684,13 +684,13 @@ background-position:center;
     background-size: cover;
     overflow: hidden;
     position: relative;
-    color: #bdbfc7 !important;
+    color: #FFFFFF !important;
     padding: 60px 0 40px 0;
 }
 
 #about:before {
     content: "";
-    background: rgb(246, 247, 253);
+    background: #FFFFFF;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -745,7 +745,7 @@ background-position:center;
 }
 
 #speakers .speaker .details {
-    background: rgba(6, 12, 34, 0.76);
+    background: #F6F7FD;
     position: absolute;
     left: 0;
     bottom: -30px;
@@ -756,14 +756,14 @@ background-position:center;
 }
 
 #speakers .speaker .details h3 {
-    color: #fff;
+    color: #F6F7FD;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
 #speakers .speaker .details p {
-    color: #fff;
+    color: #F6F7FD;
     font-size: 15px;
     margin-bottom: 10px;
     font-style: italic;
@@ -801,7 +801,7 @@ background-position:center;
 }
 
 #speakers-details .details .social a {
-    background: #e9edfb;
+    background: #F6F7FD;
     /* color: #112363; */
     line-height: 1;
     display: inline-block;
