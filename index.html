@@ -41,7 +41,8 @@
             <div id="logo" class="pull-left">
                 <!-- Uncomment below if you prefer to use a text logo -->
                 <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-                <a href="#intro" class="scrollto"><img src="img/logo-web.png" alt="" title=""></a>
+                <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
+                <!-- <a href="#intro" class="header-scrolled"><img src="img/logo.png" alt="" title=""></a> -->
 
             </div>
 
@@ -131,7 +132,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" style="text-align: center">
-              <img src="img/Tracks/blockchain-512.png" alt="Speaker 1" class="img-fluid">
+              <img src="img/Tracks/rsz_blockchain.png" alt="Speaker 1" class="img-fluid">
               <h3><a href="speaker-details.html" style="color: #0F224D ; font-weight: 500">Blockchain</a></h3>
               <!-- <div class="details"> -->
                 <!-- <h3><a href="speaker-details.html">Brenden Legros</a></h3>
@@ -722,6 +723,7 @@
 
                 </div>
                 <div class="container">
+                    
                     <div class="row " style="text-align: center">
                       
                            <div class="col-lg-6 col-md-6 offset-lg-3 offset-md-3">
@@ -1244,6 +1246,17 @@ var element = document.getElementById("myImg_1");
 element.parentNode.removeChild(element);
 }
 
+
+var onScrollHandler = function() {
+  var newImageUrl = document.getElementById("#intro").src;
+  var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  if (scrollTop > 0) {
+     newImageUrl = "img/logo.png"
+  }
+ 
+  yourImageElement.src = newImageUrl;
+};
+object.addEventListener ("scroll", onScrollHandler);
 </script>
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>

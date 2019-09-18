@@ -1135,10 +1135,10 @@ background-position:center;
     margin-bottom: 6% !important
 }
 
-#supporters .supporter-logo:hover img {
+/* #supporters .supporter-logo:hover img {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-}
+} */
 
 #supporters img {
     transition: all 0.4s ease-in-out;
@@ -1822,3 +1822,37 @@ font-weight: 550
         width: 30% !important
     }
 }
+
+
+.card-container {
+    cursor: pointer;
+    height: 150px;
+    perspective: 600;
+    position: relative;
+    width: 150px;
+  }
+  .card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+  }
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  .card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+  }
+  .card .back {
+    background: #eaeaed;
+    color: #0087cc;
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
