@@ -1822,6 +1822,27 @@ font-weight: 550
         width: 30% !important
     }
 }
+.t{   position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: #f82249; */
+    color: white;
+    font-weight: 12 !important;
+    font-size: 14px !important;
+    animation:blinkingText 0.8s infinite;
+
+   
+}
+@keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    51%{    color:red;  }
+    100%{   color: red;    }
+}
+
 
 
 .card-container {
