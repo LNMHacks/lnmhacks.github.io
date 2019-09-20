@@ -1829,12 +1829,26 @@ font-weight: 550
     -ms-transform: translate(-50%, -50%);
     /* background-color: #f82249; */
     color: white;
-    font-weight: 12 !important;
-    font-size: 14px !important;
+    font-weight: 800 !important;
+    font-size: 20px !important;
     animation:blinkingText 0.8s infinite;
 
    
 }
+@media (max-width: 768px) {
+    .t{   position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        /* background-color: #f82249; */
+        color: white;
+        font-weight: 800 !important;
+        font-size: 20px !important;
+        animation:blinkingText 0.8s infinite;
+    
+       
+    }}
 @keyframes blinkingText{
     0%{     color: red;    }
     49%{    color: transparent; }
@@ -1845,35 +1859,41 @@ font-weight: 550
 
 
 
-.card-container {
-    cursor: pointer;
-    height: 150px;
-    perspective: 600;
-    position: relative;
-    width: 150px;
-  }
-  .card {
-    height: 100%;
-    position: absolute;
-    transform-style: preserve-3d;
-    transition: all 1s ease-in-out;
-    width: 100%;
-  }
-  .card:hover {
-    transform: rotateY(180deg);
-  }
-  .card .side {
-    backface-visibility: hidden;
-    border-radius: 6px;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
-  }
-  .card .back {
-    background: #eaeaed;
-    color: #0087cc;
-    line-height: 150px;
-    text-align: center;
-    transform: rotateY(180deg);
-  }
+.g{
+    margin-left: 1.5% !important
+}
+
+.p{
+    max-width: 90% !important;
+    text-align: center !important;
+    margin-left: 8% !important
+}
+.col-md-1{
+    max-width: 14% !important;
+}
+@media (max-width: 1500px) {
+    .p{margin-left: 4% !important}
+}
+@media (max-width: 720px) {
+    .p{margin-left: 0% !important;
+    max-width: 0% !important;}
+    .col-md-1 {
+        max-width: 14% !important;
+        margin-left: 245%;
+    }
+    .op{
+    margin-left:82px !important 
+    }
+    .op1{
+        margin-left:70px !important 
+        }
+        .op2{
+            margin-left:50px !important 
+            }
+            .op3{
+                margin-left:65px !important 
+                }
+                .op4{
+                    margin-left:45px !important 
+                    }
+}
