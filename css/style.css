@@ -10,6 +10,11 @@
 # General
 --------------------------------------------------------------*/
 
+@font-face {
+    font-family: Quantico-Regular;
+    src: url('../fonts/Quantico/Quantico-Regular.ttf'); 
+  }
+
 body {
     background: #fff;
     color: #2f3138;
@@ -1836,6 +1841,7 @@ font-weight: 550
    
 }
 .otr{
+    zoom: 0.5 !important;
     position: absolute;
     top: 85%;
     left: 50%;
@@ -1910,3 +1916,164 @@ text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #4E9DAF, 0 -10px 20px #4E9DAF, 0 -18px
         font-size: 50% !important
     }
 }
+
+.flip-clock-divider .flip-clock-label{
+    color: whitesmoke !important
+}
+
+.flip-clock-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .flip-clock-wrapper .flip {
+    box-shadow: none;
+    margin-bottom: 80px;
+  }
+  
+  .flip-clock-wrapper ul {
+    position: relative;
+    float: unset;
+    margin: 3px;
+    width: 90px;
+    height: 120px;
+    font-size: 36px;
+    font-weight: unset;
+    line-height: unset;
+    border-radius: 10px;
+    background: #0d1629;
+  }
+  
+  .flip-clock-wrapper ul li {
+    line-height: unset;
+  }
+  
+  .flip-clock-wrapper ul li a div {
+    outline: none;
+  }
+  
+  .flip-clock-wrapper ul li a div div.inn {
+    font-family:  Quantico-Regular;
+    color: #fff;
+    font-size: 120px;
+    font-weight: unset;
+    text-align: unset;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 200%;
+    text-shadow: 0 0px 0px #000;
+    background-color: #0d1629;
+    border-radius: 10px;
+  } 
+  
+  .flip-clock-wrapper ul li a div .shadow {
+    border-radius: 10px;
+  }
+  
+  .flip-clock-wrapper ul li a div.up:after {
+    display: none;
+  }
+  
+  /*---------------------------------------------*/
+  .flip-clock-divider {
+    display: block;
+    float: unset;
+    position: relative;
+    width: 68px;
+    height: 120px;
+  }
+  
+  .flip-clock-divider span {
+    display: none;
+  }
+  
+  .flip-clock-divider::before {
+    content: ":";
+    font-family: Quantico-Regular;
+    color: #fff;
+    font-size: 120px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .flip-clock-divider.days::before {
+    display: none;
+  }
+  
+  .flip-clock-divider::after {
+    font-family: Montserrat-Bold;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  
+    display: block;
+    text-align: center;
+    width: 193px;
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    padding-top: 23px;
+  }
+  
+  .flip-clock-divider.days::after {
+    content: "days";
+  }
+  
+  .flip-clock-divider.hours::after {
+    content: "hrs";
+  }
+  
+  .flip-clock-divider.minutes::after {
+    content: "min";
+  }
+  
+  .flip-clock-divider.seconds::after {
+    content: "sec";
+  }
+  
+  @media (max-width: 1200px) {
+    .otr{
+        zoom: 0.25 !important
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .otr{
+        zoom: 0.20 !important
+    }
+  }
+
+  .flip-clock-wrapper ul li a div div.inn {
+     font-family: 'Rokkitt', serif;;
+    }
+
+    .flip-clock-divider::after{
+        font-size: 22px !important
+    }

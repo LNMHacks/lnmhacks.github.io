@@ -24,6 +24,18 @@
     <link href="lib/venobox/venobox.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <!-- <script src="https://kit.fontawesome.com/2e2734dbf1.js"></script> -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css'>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/countdowntime/flipclock.css">
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt&display=swap" rel="stylesheet">
+
 
 
     <!-- Main Stylesheet File -->
@@ -77,29 +89,8 @@
           <a href="https://skillenza.com/challenge/lnmhacks4" target="_blank">  <button class="btn buy-tickets" >Register</button></a>
           <p class="t" style="color: red">Deadline 5  Oct!!</p>
           <div class="container  otr" style="  text-align: center;">
-              
-                <ul>
-                  <li  style=" display: inline-block;
-                  font-size: 1.5em;
-                  list-style-type: none;
-                  padding: 1em;
-                  text-transform: uppercase;"><span class="l" id="days"></span><br>days</li>
-                  <li style=" display: inline-block;
-                  font-size: 1.5em;
-                  list-style-type: none;
-                  padding: 1em;
-                  text-transform: uppercase;"><span class="l" id="hours"></span><br>Hours</li>
-                  <li  style=" display: inline-block;
-                  font-size: 1.5em;
-                  list-style-type: none;
-                  padding: 1em;
-                  text-transform: uppercase;"><span class="l" id="minutes"></span><br>Minutes</li>
-                  <li  style=" display: inline-block;
-                  font-size: 1.5em;
-                  list-style-type: none;
-                  padding: 1em;
-                  text-transform: uppercase;"><span class="l" id="seconds"></span><br>Seconds</li>
-                </ul>
+            	
+                <div class="cd100" style="color: antiquewhite !important" ></div>
               </div>
 
             <!-- <p class="mb-4 pb-0 info">LNMIIT, JAIPUR</p>
@@ -658,7 +649,7 @@
                                         <h4 class="spo_title" >Open-Source Partner</h4>
                                         <a href="https://github.com" target="_blank">
                                             <div class="supporter-logo">
-                                             <img src="img/sponsors/github_PNG20.png" class="img-fluid" alt="">
+                                             <img src="img/sponsors/GitHub_Logo.png" class="img-fluid" alt="">
                                             </div>
                                         </a>
                                 </div>
@@ -756,7 +747,7 @@
                                             <div class="col-lg-4 col-md-4 col-xs-4">
                                                     <a href="https://www.gitkraken.com/" target="_blank">
                                                         <div class="supporter-logo">
-                                                            <img src="img/sponsors/gitlab-gitkraken14 (1).png" class="img-fluid" alt="">
+                                                            <img src="img/sponsors/gitkraken-logo-dark-hz.png" class="img-fluid" alt="">
                                                         </div>
                                                     </a>
                                                     </div>
@@ -1187,37 +1178,45 @@
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/venobox/venobox.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src='https://momentjs.com/downloads/moment.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone-with-data-2012-2022.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.js'></script>
+<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/flipclock.min.js"></script>
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 2019,
+			endtimeMonth: 10,
+			endtimeDate: 19,
+			endtimeHours: 0,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: "" 
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
 
+		
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	
     <!-- Contact Form JavaScript File -->
     <script src="contactform/contactform.js"></script>
-    <script>
-    
-    const second = 1000,
-      minute = second * 60,
-      hour = minute * 60,
-      day = hour * 24;
-
-let countDown = new Date('Oct 19, 2019 00:00:00').getTime(),
-    x = setInterval(function() {
-
-      let now = new Date().getTime(),
-          distance = countDown - now;
-
-      document.getElementById('days').innerText = Math.floor(distance / (day)),
-        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-      
-      //do something later when date is reached
-      //if (distance < 0) {
-      //  clearInterval(x);
-      //  'IT'S MY BIRTHDAY!;
-      //}
-
-    }, second)
-    
-    </script>
-<script>
+   <script>
 
 
 if(screen.width < 769){
