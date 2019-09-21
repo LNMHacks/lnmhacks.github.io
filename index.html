@@ -76,6 +76,31 @@
             <img id="myImg_1" class="head" src="img/datereveal-mob-02.jpg" ></h1>
           <a href="https://skillenza.com/challenge/lnmhacks4" target="_blank">  <button class="btn buy-tickets" >Register</button></a>
           <p class="t" style="color: red">Deadline 5  Oct!!</p>
+          <div class="container  otr" style="  text-align: center;">
+              
+                <ul>
+                  <li  style=" display: inline-block;
+                  font-size: 1.5em;
+                  list-style-type: none;
+                  padding: 1em;
+                  text-transform: uppercase;"><span class="l" id="days"></span><br>days</li>
+                  <li style=" display: inline-block;
+                  font-size: 1.5em;
+                  list-style-type: none;
+                  padding: 1em;
+                  text-transform: uppercase;"><span class="l" id="hours"></span><br>Hours</li>
+                  <li  style=" display: inline-block;
+                  font-size: 1.5em;
+                  list-style-type: none;
+                  padding: 1em;
+                  text-transform: uppercase;"><span class="l" id="minutes"></span><br>Minutes</li>
+                  <li  style=" display: inline-block;
+                  font-size: 1.5em;
+                  list-style-type: none;
+                  padding: 1em;
+                  text-transform: uppercase;"><span class="l" id="seconds"></span><br>Seconds</li>
+                </ul>
+              </div>
 
             <!-- <p class="mb-4 pb-0 info">LNMIIT, JAIPUR</p>
 
@@ -1165,6 +1190,33 @@
 
     <!-- Contact Form JavaScript File -->
     <script src="contactform/contactform.js"></script>
+    <script>
+    
+    const second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
+
+let countDown = new Date('Oct 19, 2019 00:00:00').getTime(),
+    x = setInterval(function() {
+
+      let now = new Date().getTime(),
+          distance = countDown - now;
+
+      document.getElementById('days').innerText = Math.floor(distance / (day)),
+        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+      
+      //do something later when date is reached
+      //if (distance < 0) {
+      //  clearInterval(x);
+      //  'IT'S MY BIRTHDAY!;
+      //}
+
+    }, second)
+    
+    </script>
 <script>
 
 
@@ -1177,18 +1229,6 @@ if(screen.width >= 769){
 var element = document.getElementById("myImg_1");
 element.parentNode.removeChild(element);
 }
-
-
-var onScrollHandler = function() {
-  var newImageUrl = document.getElementById("#intro").src;
-  var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-  if (scrollTop > 0) {
-     newImageUrl = "img/logo.png"
-  }
- 
-  yourImageElement.src = newImageUrl;
-};
-object.addEventListener ("scroll", onScrollHandler);
 </script>
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
