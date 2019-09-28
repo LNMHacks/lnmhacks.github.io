@@ -2077,3 +2077,46 @@ text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #4E9DAF, 0 -10px 20px #4E9DAF, 0 -18px
     .flip-clock-divider::after{
         font-size: 22px !important
     }
+
+
+  
+.wrap {
+  max-width: 1100px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  display: block;
+  position: relative;
+  width: 30%;
+}
+
+.profile img {
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+}
+
+.profile:before,
+.profile:after {
+  content: '';
+  display: block;
+  width: 27%;
+  height: 27%;
+  /* background: #283866; */
+  border-radius: 50%;
+  position: absolute;
+}
+
+.profile:before {
+  top: 2.5%;
+  right: 2.5%;
+}
+
